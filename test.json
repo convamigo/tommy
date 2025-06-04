@@ -9,85 +9,85 @@
     {
       "nummer": 1,
       "vraag": "Wie nennt man die Haare auf dem Kopf – lang, kurz, blond oder braun?",
-      "opties": ["die Haare", "die Augen", "die Kapuze"],
-      "correct_antwoord": "die Haare",
+      "opties": ["Haare", "Augen", "Kapuze"],
+      "correct_antwoord": "Haare",
       "explanation": "\"die Haare\" bedeutet \"de haren\", in de zin \"Laura hat lange braune __1__.\" dus \"de haren\" is een logisch antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Was sind kleine runde Locken im Haar?",
-      "opties": ["die Locken", "die Frisur", "die Socken"],
-      "correct_antwoord": "die Locken",
+      "opties": ["Locken", "Frisur", "Socken"],
+      "correct_antwoord": "Locken",
       "explanation": "\"die Locken\" bedeutet \"de krullen\", in de zin \"Sie trägt gerne einen Zopf oder lässt ihre __2__ offen.\" dus \"de krullen\" is een logisch antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Was trägt man um den Hals als Schmuck?",
-      "opties": ["die Kette", "die Brille", "der Ring"],
-      "correct_antwoord": "die Kette",
+      "opties": ["Kette", "Brille", "Ring"],
+      "correct_antwoord": "Kette",
       "explanation": "\"die Kette\" bedeutet \"de ketting\", in de zin \"Heute trägt sie eine schöne silberne __3__ um den Hals.\" dus \"de ketting\" is een logisch antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Was trägt man im Ohr als Schmuck?",
-      "opties": ["die Ohrringe", "die Haare", "die Jeans"],
-      "correct_antwoord": "die Ohrringe",
+      "opties": ["Ohrringe", "Haare", "Jeans"],
+      "correct_antwoord": "Ohrringe",
       "explanation": "\"die Ohrringe\" bedeutet \"de oorbellen\", in de zin \"Auch ihre goldenen __4__ glänzen in der Sonne.\" dus \"de oorbellen\" is een logisch antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Was ist eine Hose aus dickem blauen Stoff?",
-      "opties": ["die Jeans", "die Frisur", "die Kapuze"],
-      "correct_antwoord": "die Jeans",
+      "opties": ["Jeans", "Frisur", "Kapuze"],
+      "correct_antwoord": "Jeans",
       "explanation": "\"die Jeans\" bedeutet \"de jeans/broek\", in de zin \"Tom ist sportlich und trägt oft eine blaue __5__.\" dus \"de jeans\" is een logisch antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Was trägt man an den Füßen in den Schuhen?",
-      "opties": ["die Socken", "die Ohrringe", "die Kette"],
-      "correct_antwoord": "die Socken",
+      "opties": ["Socken", "Ohrringe", "Kette"],
+      "correct_antwoord": "Socken",
       "explanation": "\"die Socken\" bedeutet \"de sokken\", in de zin \"Dazu hat er weiße Turnschuhe und bunte __6__ an.\" dus \"de sokken\" is een logisch antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Was ist ein Teil der Jacke, den man über den Kopf ziehen kann?",
-      "opties": ["die Kapuze", "die Frisur", "die Größe"],
-      "correct_antwoord": "die Kapuze",
+      "opties": ["Kapuze", "Frisur", "Größe"],
+      "correct_antwoord": "Kapuze",
       "explanation": "\"die Kapuze\" bedeutet \"de capuchon\", in de zin \"Er trägt auch eine schwarze Jacke mit einer großen __7__.\" dus \"de capuchon\" is een logisch antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Was benutzt man zum Sehen und hat Farben wie blau oder grün?",
-      "opties": ["die Augen", "die Brille", "die Locken"],
-      "correct_antwoord": "die Augen",
+      "opties": ["Augen", "Brille", "Locken"],
+      "correct_antwoord": "Augen",
       "explanation": "\"die Augen\" bedeutet \"de ogen\", in de zin \"Lisa hat grüne __8__ und eine moderne __9__.\" dus \"de ogen\" is een logisch antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie nennt man den Stil der Haare – zum Beispiel Zopf oder glatt?",
-      "opties": ["die Frisur", "die Socken", "die Kapuze"],
-      "correct_antwoord": "die Frisur",
+      "opties": ["Frisur", "Socken", "Kapuze"],
+      "correct_antwoord": "Frisur",
       "explanation": "\"die Frisur\" bedeutet \"de kapsel/haarstijl\", in de zin \"Lisa hat grüne __8__ und eine moderne __9__.\" dus \"de kapsel/haarstijl\" is een logisch antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Was trägt man auf der Nase, um besser zu sehen?",
-      "opties": ["die Brille", "die Augen", "der Ring"],
-      "correct_antwoord": "die Brille",
+      "opties": ["Brille", "Augen", "Ring"],
+      "correct_antwoord": "Brille",
       "explanation": "\"die Brille\" bedeutet \"de bril\", in de zin \"Sie trägt oft eine rote __10__, weil sie nicht so gut sehen kann.\" dus \"de bril\" is een logisch antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Was trägt man oft an der Hand als Schmuck?",
-      "opties": ["der Ring", "die Kette", "die Brille"],
-      "correct_antwoord": "der Ring",
+      "opties": ["Ring", "Kette", "Brille"],
+      "correct_antwoord": "Ring",
       "explanation": "\"der Ring\" bedeutet \"de ring\", in de zin \"Auf ihrem Finger trägt sie einen silbernen __11__, den sie von ihrer Oma bekommen hat.\" dus \"de ring\" is een logisch antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie nennt man die Kleidergröße – S, M, L oder XL?",
-      "opties": ["die Größe", "die Frisur", "die Locken"],
-      "correct_antwoord": "die Größe",
+      "opties": ["Größe", "Frisur", "Locken"],
+      "correct_antwoord": "Größe",
       "explanation": "\"die Größe\" betekent \"de maat/grootte\", in de zin \"Jan ist groß und schlank. Seine __12__ ist L.\" dus \"de maat/grootte\" is een logisch antwoord."
     }
   ]
