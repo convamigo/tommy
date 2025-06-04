@@ -1,9 +1,9 @@
 {
   "tekst": [
-    "Ich frühstücke gern. Morgens esse ik Brot op einem <span class=\\\"gap\\\">1</span>. Dazu trinke ik een heißen <span class=\\\"gap\\\">2</span>. Ik benutze een <span class=\\\"gap\\\">3</span> voor mein Joghurt.",
-    "Zum Mittagessen esse ik vaak Suppe of Fleisch. Danach gibt es un <span class=\\\"gap\\\">4</span>. Ik trinke gern een kalte <span class=\\\"gap\\\">5</span> dazu.",
-    "Im <span class=\\\"gap\\\">6</span> lees ik eerst die <span class=\\\"gap\\\">7</span>. Dann bestelle ik Fleisch met Kartoffeln. Ik esse met <span class=\\\"gap\\\">8</span> und <span class=\\\"gap\\\">9</span>.",
-    "Zum Trinken bekomme ik ein <span class=\\\"gap\\\">10</span> Wasser. Als Nachspeise nehme ik gern <span class=\\\"gap\\\">11</span>. Am Ende vraag ik nach der <span class=\\\"gap\\\">12</span>."
+    "Ich frühstücke gern. Morgens esse ik Brot op einem <span class='gap'>1</span>. Dazu trinke ik een heißen <span class='gap'>2</span>. Ik benutze een <span class='gap'>3</span> voor mein Joghurt.",
+    "Zum Mittagessen esse ik vaak Suppe of Fleisch. Danach gibt es un <span class='gap'>4</span>. Ik trinke gern een kalte <span class='gap'>5</span> dazu.",
+    "Im <span class='gap'>6</span> lees ik eerst die <span class='gap'>7</span>. Dann bestelle ik Fleisch met Kartoffeln. Ik esse met <span class='gap'>8</span> und <span class='gap'>9</span>.",
+    "Zum Trinken bekomme ik ein <span class='gap'>10</span> Wasser. Als Nachspeise nehme ik gern <span class='gap'>11</span>. Am Ende vraag ik nach der <span class='gap'>12</span>."
   ],
   "vragen": [
     {
