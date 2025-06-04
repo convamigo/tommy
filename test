@@ -1,112 +1,94 @@
 {
+  "tekst": [
+    "Ich frühstücke gern. Morgens esse ik Brot op einem <span class=\\\"gap\\\">1</span>. Dazu trinke ik een heißen <span class=\\\"gap\\\">2</span>. Ik benutze een <span class=\\\"gap\\\">3</span> voor mein Joghurt.",
+    "Zum Mittagessen esse ik vaak Suppe of Fleisch. Danach gibt es un <span class=\\\"gap\\\">4</span>. Ik trinke gern een kalte <span class=\\\"gap\\\">5</span> dazu.",
+    "Im <span class=\\\"gap\\\">6</span> lees ik eerst die <span class=\\\"gap\\\">7</span>. Dann bestelle ik Fleisch met Kartoffeln. Ik esse met <span class=\\\"gap\\\">8</span> und <span class=\\\"gap\\\">9</span>.",
+    "Zum Trinken bekomme ik ein <span class=\\\"gap\\\">10</span> Wasser. Als Nachspeise nehme ik gern <span class=\\\"gap\\\">11</span>. Am Ende vraag ik nach der <span class=\\\"gap\\\">12</span>."
+  ],
   "vragen": [
     {
       "nummer": 1,
       "vraag": "Worauf liegt das Frühstück? Ik esse op een ...",
       "opties": ["der Teller", "das Messer", "die Speisekarte"],
       "correct_antwoord": "der Teller",
-      "explanation": "\"der Teller\" betekent \"het bord\", in de zin staat \"Ich frühstücke gern. Morgens esse ik Brot op einem __1__.\" dus \"het bord\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"der Teller\" betekent \"het bord\", in de zin staat \"Ich frühstücke gern. Morgens esse ik Brot op einem __1__.\" dus \"het bord\" is een logisch antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Was passt? Ich trinke einen heißen ...",
       "opties": ["der Kaffee", "die Cola", "das Eis"],
       "correct_antwoord": "der Kaffee",
-      "explanation": "\"der Kaffee\" betekent \"de koffie\", in de zin staat \"Dazu trinke ik einen heißen __2__.\" dus \"de koffie\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"der Kaffee\" betekent \"de koffie\", in de zin staat \"Dazu trinke ik einen heißen __2__.\" dus \"de koffie\" is een logisch antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Was benutzt man voor Joghurt?",
       "opties": ["der Löffel", "die Gabel", "das Messer"],
       "correct_antwoord": "der Löffel",
-      "explanation": "\"der Löffel\" betekent \"de lepel\", in de zin staat \"Ich benutze einen __3__ voor mein Joghurt.\" dus \"de lepel\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"der Löffel\" betekent \"de lepel\", in de zin staat \"Ich benutze einen __3__ voor mein Joghurt.\" dus \"de lepel\" is een logisch antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Wat komt na het hoofdgerecht?",
       "opties": ["der Nachtisch", "die Rechnung", "die Cola"],
       "correct_antwoord": "der Nachtisch",
-      "explanation": "\"der Nachtisch\" betekent \"het nagerecht\", in de zin staat \"Danach gibt es un __4__.\" dus \"het nagerecht\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"der Nachtisch\" betekent \"het nagerecht\", in de zin staat \"Danach gibt es un __4__.\" dus \"het nagerecht\" is een logisch antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Welk koud drankje met suiker?",
       "opties": ["die Cola", "der Kaffee", "die Speisekarte"],
       "correct_antwoord": "die Cola",
-      "explanation": "\"die Cola\" betekent \"cola\", in de zin staat \"Ik trinke gern een kalte __5__ dazu.\" dus \"cola\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"die Cola\" betekent \"cola\", in de zin staat \"Ik trinke gern een kalte __5__ dazu.\" dus \"cola\" is een logisch antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Waar kun je eten gaan?",
       "opties": ["das Restaurant", "das Glas", "die Rechnung"],
       "correct_antwoord": "das Restaurant",
-      "explanation": "\"das Restaurant\" betekent \"het restaurant\", in de zin staat \"Im __6__ lees ik eerst die __7__.\" dus \"het restaurant\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"das Restaurant\" betekent \"het restaurant\", in de zin staat \"Im __6__ lees ik eerst die __7__.\" dus \"het restaurant\" is een logisch antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Wat lees je om het eten te kiezen?",
       "opties": ["die Speisekarte", "der Teller", "der Nachtisch"],
       "correct_antwoord": "die Speisekarte",
-      "explanation": "\"die Speisekarte\" betekent \"het menu\", in de zin staat \"Im __6__ lees ik eerst die __7__.\" dus \"het menu\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"die Speisekarte\" betekent \"het menu\", in de zin staat \"Im __6__ lees ik eerst die __7__.\" dus \"het menu\" is een logisch antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Womit eet je salade?",
       "opties": ["die Gabel", "der Löffel", "das Messer"],
       "correct_antwoord": "die Gabel",
-      "explanation": "\"die Gabel\" betekent \"de vork\", in de zin staat \"Ich eet met __8__ und __9__.\" dus \"de vork\" is een logisch antwoord voor salade.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"die Gabel\" betekent \"de vork\", in de zin staat \"Ich eet met __8__ und __9__.\" dus \"de vork\" is een logisch antwoord voor salade."
     },
     {
       "nummer": 9,
       "vraag": "Wat heb je nodig om te snijden?",
       "opties": ["das Messer", "der Kaffee", "die Cola"],
       "correct_antwoord": "das Messer",
-      "explanation": "\"das Messer\" betekent \"het mes\", in de zin staat \"Ich eet met __8__ und __9__.\" dus \"het mes\" is een logisch antwoord om te snijden.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"das Messer\" betekent \"het mes\", in de zin staat \"Ich eet met __8__ und __9__.\" dus \"het mes\" is een logisch antwoord om te snijden."
     },
     {
       "nummer": 10,
       "vraag": "Welk object gebruik je om te drinken?",
       "opties": ["das Glas", "die Rechnung", "der Teller"],
       "correct_antwoord": "das Glas",
-      "explanation": "\"das Glas\" betekent \"het glas\", in de zin staat \"Zum Trinken bekom ik ein __10__ Wasser.\" dus \"het glas\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"das Glas\" betekent \"het glas\", in de zin staat \"Zum Trinken bekomme ik ein __10__ Wasser.\" dus \"het glas\" is een logisch antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Wat is koud en zoet?",
       "opties": ["das Eis", "der Löffel", "die Speisekarte"],
       "correct_antwoord": "das Eis",
-      "explanation": "\"das Eis\" betekent \"het ijs\", in de zin staat \"Als Nachspeise neem ik gern __11__.\" dus \"het ijs\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"das Eis\" betekent \"het ijs\", in de zin staat \"Als Nachspeise neem ik gern __11__.\" dus \"het ijs\" is een logisch antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wat krijg je op het einde in een restaurant?",
       "opties": ["die Rechnung", "das Messer", "der Nachtisch"],
       "correct_antwoord": "die Rechnung",
-      "explanation": "\"die Rechnung\" betekent \"de rekening\", in de zin staat \"Am Ende vraag ik nach der __12__.\" dus \"de rekening\" is een logisch antwoord.",
-      "answeredCorrectly": false,
-      "wrongAttempted": false
+      "explanation": "\"die Rechnung\" betekent \"de rekening\", in de zin staat \"Am Ende vraag ik nach der __12__.\" dus \"de rekening\" is een logisch antwoord."
     }
   ]
 }
