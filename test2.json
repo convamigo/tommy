@@ -1,0 +1,94 @@
+{
+  "tekst": [
+    "Heute ist es kalt. Anna trägt eine warme <span class='gap'>1</span> und eine lange <span class='gap'>2</span>. Sie hat auch <span class='gap'>3</span> an den Füßen. Auf dem Kopf trägt sie eine <span class='gap'>4</span>. So ist sie gut für den Winter angezogen.",
+    "Tom trägt gern sportliche Kleidung. Er hat ein <span class='gap'>5</span> und eine blaue <span class='gap'>6</span> an. Seine Lieblingskleidung ist ein grüner <span class='gap'>7</span>, weil er bequem ist. Wenn es regnet, trägt er auch eine <span class='gap'>8</span>.",
+    "Maria mag elegante Kleidung. Sie trägt oft ein rotes <span class='gap'>9</span> oder eine weiße <span class='gap'>10</span>. Dazu passen schwarze Schuhe. Ihr <span class='gap'>11</span> ist immer sehr modern und gepflegt.",
+    "Im Sommer tragen viele Frauen ein leichtes <span class='gap'>12</span> oder ein T-Shirt. Männer tragen kurze Hosen und Sandalen. Die Kleidung ist bunt und luftig. Jeder Mensch hat seinen eigenen Stil."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Was trägt man im Winter über dem Pullover, wenn es draußen kalt ist?",
+      "opties": ["die Jacke", "die Hose", "die Bluse"],
+      "correct_antwoord": "die Jacke",
+      "explanation": "\"die Jacke\" betekent \"de jas\", in de zin \"Heute ist es kalt. Anna trägt eine warme __1__ und ...\" dus \"de jas\" is een logisch antwoord."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Was trägt man an den Beinen – es ist lang und hat zwei Beine?",
+      "opties": ["die Hose", "der Rock", "das Kleid"],
+      "correct_antwoord": "die Hose",
+      "explanation": "\"die Hose\" betekent \"de broek\", in de zin \"Anna trägt eine lange __2__ und ...\" dus \"de broek\" is een logisch antwoord."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Was zieht man an die Füße, wenn man rausgeht?",
+      "opties": ["die Schuhe", "der Pullover", "das T-Shirt"],
+      "correct_antwoord": "die Schuhe",
+      "explanation": "\"die Schuhe\" betekent \"de schoenen\", in de zin \"Sie hat auch __3__ an den Füßen.\" dus \"de schoenen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Was trägt man auf dem Kopf, wenn es draußen kalt ist?",
+      "opties": ["die Mütze", "das Kleid", "die Bluse"],
+      "correct_antwoord": "die Mütze",
+      "explanation": "\"die Mütze\" betekent \"de muts\", in de zin \"Auf dem Kopf trägt sie eine __4__.\" dus \"de muts\" is een logisch antwoord."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Was ist ein kurzes Oberteil mit kurzen Ärmeln – oft im Sommer getragen?",
+      "opties": ["das T-Shirt", "die Jacke", "der Rock"],
+      "correct_antwoord": "das T-Shirt",
+      "explanation": "\"das T-Shirt\" betekent \"het T-shirt\", in de zin \"Er hat ein __5__ und eine blaue __6__ an.\" dus \"het T-shirt\" is een logisch antwoord."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Was trägt man an den Beinen – oft aus Jeansstoff?",
+      "opties": ["die Hose", "der Pullover", "die Mütze"],
+      "correct_antwoord": "die Hose",
+      "explanation": "\"die Hose\" betekent \"de broek\", in de zin \"Er hat ... eine blaue __6__ an.\" dus \"de broek\" is een logisch antwoord."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Was ist warm, hat lange Ärmel und wird über einem Hemd getragen?",
+      "opties": ["der Pullover", "der Rock", "das Kleid"],
+      "correct_antwoord": "der Pullover",
+      "explanation": "\"der Pullover\" betekent \"de trui\", in de zin \"Seine Lieblingskleidung ist ein grüner __7__, weil er bequem ist.\" dus \"de trui\" is een logisch antwoord."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Was schützt vor Wind und Regen – man trägt es draußen?",
+      "opties": ["die Jacke", "die Bluse", "die Hose"],
+      "correct_antwoord": "die Jacke",
+      "explanation": "\"die Jacke\" bedeutet \"de jas\", in de zin \"Wenn es regnet, trägt er auch eine __8__.\" dus \"de jas\" is een logisch antwoord."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Was ist ein elegantes Kleidungsstück, das Frauen oft tragen?",
+      "opties": ["das Kleid", "die Mütze", "der Stiefel"],
+      "correct_antwoord": "das Kleid",
+      "explanation": "\"das Kleid\" betekent \"de jurk\", in de zin \"Sie trägt oft ein rotes __9__ oder ...\" dus \"de jurk\" is een logisch antwoord."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Was ist ein feines Oberteil für Frauen – oft mit Knöpfen?",
+      "opties": ["die Bluse", "das T-Shirt", "die Jacke"],
+      "correct_antwoord": "die Bluse",
+      "explanation": "\"die Bluse\" betekent \"de blouse\", in de zin \"... oder eine weiße __10__.\" dus \"de blouse\" is een logisch antwoord."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Wie nennt man, wie eine Person aussieht – mit Kleidung, Frisur usw.?",
+      "opties": ["das Aussehen", "die Bluse", "die Schuhe"],
+      "correct_antwoord": "das Aussehen",
+      "explanation": "\"das Aussehen\" betekent \"het uiterlijk\", in de zin \"Ihr __11__ ist immer sehr modern und gepflegt.\" dus \"het uiterlijk\" is een logisch antwoord."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Was tragen manche Frauen oder Mädchen auf dem Kopf – oft aus Stoff?",
+      "opties": ["das Kopftuch", "die Jacke", "der Pullover"],
+      "correct_antwoord": "das Kopftuch",
+      "explanation": "\"das Kopftuch\" betekent \"de hoofddoek\", in de zin \"Im Sommer tragen viele Frauen ein leichtes __12__ oder ...\" dus \"de hoofddoek\" is een logisch antwoord."
+    }
+  ]
+}
