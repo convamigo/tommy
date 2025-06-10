@@ -85,7 +85,7 @@
     },
     {
       "nummer": 12,
-      "vraag": "Wie nennt man die Kleider... – S, M, L oder XL?",
+      "vraag": "Wofür stehen die Buchstaben S, M, L und XL",
       "opties": ["Größe", "Frisur", "Locken"],
       "correct_antwoord": "Größe",
       "explanation": "\"die Größe\" betekent \"de maat/grootte\", in de zin \"Jan ist groß und schlank. Seine __12__ ist L.\" dus \"de maat/grootte\" is een logisch antwoord."
