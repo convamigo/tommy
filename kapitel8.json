@@ -1,0 +1,101 @@
+{
+  "tekst": [
+    "Ich bin Lara und zehn Jahre alt. Ich bin <span class='gap'>1</span> und habe lange, braune Haare. Meine Augen sind <span class='gap'>2</span>. Viele Leute sagen, ich sehe nett aus. Ich finde mein Aussehen <span class='gap'>3</span>, weil ich gern lache. Ich mag es, wenn meine Kleidung <span class='gap'>4</span> ist. Dann fühle ich mich wohl.",
+    "Jeden Morgen will ich sofort meine Kleidung <span class='gap'>5</span>. Im Winter trage ich gern einen dicken <span class='gap'>6</span> und warme <span class='gap'>7</span>. Im Sommer ziehe ich ein leichtes <span class='gap'>8</span> an. Wenn es regnet, trage ich eine Jacke und eine lange <span class='gap'>9</span>. Ich finde Mode sehr interessant.",
+    "Meine kleine Schwester Lea hilft mir oft beim <span class='gap'>10</span> meines Zimmers. Wir falten die Kleidung und legen alles in den Schrank. Danach spielen wir zusammen. Ich mag es, wenn es im Zimmer <span class='gap'>11</span> ist. Dann können wir alles gut sehen.",
+    "In der Schule <span class='gap'>12</span> ich oft Jeans und ein T-Shirt. Das ist bequem und sieht gut aus. Manchmal sagen meine Freunde, dass meine Kleidung <span class='gap'>13</span> aussieht. Nach der Schule ziehe ich bequeme Kleidung an, weil ich zu Hause entspannen will. Mode macht Spaß!"
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Wie beschreibt man eine Person, die nicht klein ist?",
+      "opties": ["klein", "groß", "dick", "schmal"],
+      "correct_antwoord": "groß",
+      "explanation": "\"groß\" bedeutet \"groot\", in der Lücke 1 passt \"groß\" logisch, weil es eine Person beschreibt, die nicht klein ist."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Welche Farbe haben die Augen, wenn sie wie der Himmel aussehen?",
+      "opties": ["braun", "grün", "blau", "grau"],
+      "correct_antwoord": "blau",
+      "explanation": "\"blau\" bedeutet \"blauw\", in der Lücke 2 passt \"blau\" logisch, weil blaue Augen wie der Himmel sind."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Welches Wort benutzt man, wenn man etwas richtig gut findet?",
+      "opties": ["schlecht", "toll", "langweilig", "dunkel"],
+      "correct_antwoord": "toll",
+      "explanation": "\"toll\" bedeutet \"geweldig\", in der Lücke 3 passt \"toll\" logisch, weil man etwas richtig gut findet."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wie nennt man Kleidung, die angenehm zu tragen ist?",
+      "opties": ["unbequem", "modern", "gemütlich", "altmodisch"],
+      "correct_antwoord": "gemütlich",
+      "explanation": "\"gemütlich\" bedeutet \"comfortabel\", in der Lücke 4 passt \"gemütlich\" logisch, weil gemütliche Kleidung angenehm zu tragen ist."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Was macht man, wenn man Kleidung an den Körper bringt?",
+      "opties": ["ausziehen", "anziehen", "waschen", "kaufen"],
+      "correct_antwoord": "anziehen",
+      "explanation": "\"anziehen\" bedeutet \"aantrekken\", in der Lücke 5 passt \"anziehen\" logisch, weil man damit Kleidung an den Körper bringt."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Wie nennt man ein warmes Oberteil für kalte Tage?",
+      "opties": ["T-Shirt", "Pullover", "Bluse", "Hemd"],
+      "correct_antwoord": "Pullover",
+      "explanation": "\"Pullover\" bedeutet \"trui\", in der Lücke 6 passt \"Pullover\" logisch, weil Pullover warme Oberteile sind."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Was trägt man an den Füßen im Winter?",
+      "opties": ["Schuhe", "Socken", "Sandalen", "Stiefel"],
+      "correct_antwoord": "Stiefel",
+      "explanation": "\"Stiefel\" bedeutet \"laarzen\", in der Lücke 7 passt \"Stiefel\" logisch, weil man sie an den Füßen im Winter trägt."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie heißt ein Kleidungsstück für Mädchen oder Frauen mit Rockteil?",
+      "opties": ["Hose", "Pullover", "Kleid", "Mantel"],
+      "correct_antwoord": "Kleid",
+      "explanation": "\"Kleid\" bedeutet \"jurk\", in der Lücke 8 passt \"Kleid\" logisch, weil es ein Kleidungsstück mit Rockteil ist."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie nennt man ein Kleidungsstück mit zwei Beinen, das man unten trägt?",
+      "opties": ["Rock", "Hose", "Schal", "Kleid"],
+      "correct_antwoord": "Hose",
+      "explanation": "\"Hose\" bedeutet \"broek\", in der Lücke 9 passt \"Hose\" logisch, weil man sie unten trägt und sie zwei Beine hat."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Wie nennt man es, wenn man ein Zimmer ordentlich macht?",
+      "opties": ["aufräumen", "putzen", "kochen", "spielen"],
+      "correct_antwoord": "aufräumen",
+      "explanation": "\"aufräumen\" bedeutet \"opruimen\", in der Lücke 10 passt \"aufräumen\" logisch, weil es bedeutet, ein Zimmer ordentlich zu machen."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Welches Wort beschreibt einen Raum mit viel Licht?",
+      "opties": ["dunkel", "hell", "kalt", "eng"],
+      "correct_antwoord": "hell",
+      "explanation": "\"hell\" bedeutet \"licht\", in der Lücke 11 passt \"hell\" logisch, weil ein heller Raum viel Licht hat."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Was tut man mit Kleidung, wenn man sie am Körper hat?",
+      "opties": ["tragen (trage)", "halten (halte)", "kaufen (kaufe)", "waschen (wasche)"],
+      "correct_antwoord": "tragen (trage)",
+      "explanation": "\"tragen\" bedeutet \"dragen\", in der Lücke 12 passt \"trage\" logisch, weil es bedeutet, Kleidung am Körper zu haben."
+    },
+    {
+      "nummer": 13,
+      "vraag": "Welches Wort benutzt man, wenn etwas sehr schön ist?",
+      "opties": ["hässlich", "alt", "toll", "kaputt"],
+      "correct_antwoord": "toll",
+      "explanation": "\"toll\" bedeutet \"geweldig\", in der Lücke 13 passt \"toll\" logisch, weil es ausdrückt, dass etwas sehr schön ist."
+    }
+  ]
+}
