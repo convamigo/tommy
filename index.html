@@ -4,8 +4,18 @@
   <div id="start-screen">
     <h1>Kies een oefening</h1>
     <div class="start-buttons">
-      <button id="start-oefening1" class="start-button">Oefening 1</button>
-      <button id="start-oefening2" class="start-button">Oefening 2</button>
+      <button id="start-oefening1" class="start-button">Kapitel 1</button>
+      <button id="start-oefening2" class="start-button">Kapitel 2</button>
+      <button id="start-oefening3" class="start-button">Kapitel 3</button>
+      <button id="start-oefening4" class="start-button">Kapitel 4</button>
+      <button id="start-oefening5" class="start-button">Kapitel 5</button>
+      <button id="start-oefening6" class="start-button">Wiederholung K 1-5</button>
+      <button id="start-oefening7" class="start-button">Kapitel 6</button>
+      <button id="start-oefening8" class="start-button">Kapitel 7</button>
+      <button id="start-oefening9" class="start-button">Kapitel 8</button>
+      <button id="start-oefening10" class="start-button">Kapitel 9</button>
+      <button id="start-oefening11" class="start-button">Kapitel 10</button>
+      <button id="start-oefening12" class="start-button">Wiederholung K 6-10</button>
     </div>
   </div>
 
@@ -57,11 +67,13 @@
   #start-screen h1 {
     margin-bottom: 2rem;
   }
-  .start-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
+ .start-buttons {
+  display: grid;  
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
   .start-button {
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -311,8 +323,18 @@
 <script>
   (function(){
     // URLs voor de oefeningen
-    const URL_OEFENING_1 = "./test.json";
-    const URL_OEFENING_2 = "./test2.json";
+    const URL_OEFENING_1 = "./kapitel1.json";
+    const URL_OEFENING_2 = "./kapitel2.json";
+    const URL_OEFENING_3 = "./kapitel3.json";
+    const URL_OEFENING_4 = "./kapitel4.json";
+    const URL_OEFENING_5 = "./kapitel5.json";
+    const URL_OEFENING_6 = "./wiederholung15.json";
+    const URL_OEFENING_7 = "./kapitel6.json";
+    const URL_OEFENING_8 = "./kapitel7.json";
+    const URL_OEFENING_9 = "./kapitel8.json";
+    const URL_OEFENING_10 = "./kapitel9.json";
+    const URL_OEFENING_11 = "./kapitel10.json";
+    const URL_OEFENING_12 = "./wiederholung610.json";
 
     // Quiz‐state
     let vragen = [];
@@ -326,6 +348,16 @@
     const startScreen  = document.getElementById("start-screen");
     const startBtn1    = document.getElementById("start-oefening1");
     const startBtn2    = document.getElementById("start-oefening2");
+    const startBtn3    = document.getElementById("start-oefening3");
+    const startBtn4    = document.getElementById("start-oefening4");
+    const startBtn5    = document.getElementById("start-oefening5");
+    const startBtn6    = document.getElementById("start-oefening6");
+    const startBtn7    = document.getElementById("start-oefening7");
+    const startBtn8    = document.getElementById("start-oefening8");
+    const startBtn9    = document.getElementById("start-oefening9");
+    const startBtn10    = document.getElementById("start-oefening10");
+    const startBtn11    = document.getElementById("start-oefening11");
+    const startBtn12    = document.getElementById("start-oefening12");
     const quizWrapper  = document.getElementById("quiz-container-wrapper");
     const escapeButton = document.getElementById("escape-button");
     const quizApp      = document.getElementById("quiz-app");
@@ -346,6 +378,16 @@
     // Eventlisteners voor de start‐knoppen
     startBtn1.addEventListener("click", () => startQuiz(URL_OEFENING_1));
     startBtn2.addEventListener("click", () => startQuiz(URL_OEFENING_2));
+    startBtn3.addEventListener("click", () => startQuiz(URL_OEFENING_3));
+    startBtn4.addEventListener("click", () => startQuiz(URL_OEFENING_4));
+    startBtn5.addEventListener("click", () => startQuiz(URL_OEFENING_5));
+    startBtn6.addEventListener("click", () => startQuiz(URL_OEFENING_6));
+    startBtn7.addEventListener("click", () => startQuiz(URL_OEFENING_7));
+    startBtn8.addEventListener("click", () => startQuiz(URL_OEFENING_8));
+    startBtn9.addEventListener("click", () => startQuiz(URL_OEFENING_9));
+    startBtn10.addEventListener("click", () => startQuiz(URL_OEFENING_10));
+    startBtn11.addEventListener("click", () => startQuiz(URL_OEFENING_11));
+    startBtn12.addEventListener("click", () => startQuiz(URL_OEFENING_12));
 
     // Eventlistener voor de escape-button (terug naar startscherm)
     escapeButton.addEventListener("click", () => {
