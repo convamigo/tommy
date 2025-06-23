@@ -1,0 +1,95 @@
+{
+  "tekst": [
+    "Hallo! Wir sind Max, Julia und Tom. <span class='gap'>1</span> unserer Familie ist Bauer. Wir wohnen in einem kleinen Haus. Unsere <span class='gap'>2</span> heißt Anna. Sie arbeitet im Krankenhaus. Wir haben viele Freunde und eine große Familie. Unsere <span class='gap'>3</span> ist 0341 789456. Wir spielen oft zusammen im Garten oder gehen spazieren. Das macht Spaß!",
+    "Max hat einen <span class='gap'>4</span>. Er heißt Tom und ist zwölf Jahre alt. Julia ist die Schwester von Max. Zusammen sind sie <span class='gap'>5</span>. Sie haben auch einen <span class='gap'>6</span>. Er wohnt in <span class='gap'>7</span>. Im Sommer besucht er die Familie. Dann spielen sie draußen und essen Eis. Der Cousin bringt immer Süßigkeiten mit.",
+    "Unsere <span class='gap'>8</span> wohnen in der <span class='gap'>9</span>. Sie haben einen Hund und zwei Katzen. Wenn wir sie besuchen, machen wir oft Ausflüge in die Berge. Die Großeltern erzählen viele Geschichten von früher. Sie kochen auch sehr gut. Besonders das Frühstück ist lecker. Wir essen Brot, Käse und Marmelade. Danach gehen wir spazieren.",
+    "Tom hat einen <span class='gap'>10</span>, der nebenan wohnt. Er ist sehr nett und hilft gern. Sie gehen zusammen zur Schule. In der Pause spielen sie Fußball. Max kennt auch <span class='gap'>11</span> aus seiner Klasse. Sie ist freundlich und klug. Die Kinder lernen zusammen und machen Hausaufgaben. So macht Schule Spaß!",
+    "Am Wochenende besuchen wir unsere Familie. Wir sprechen mit der Mutter, den Großeltern und dem Cousin. Auch der Freund von Tom ist oft dabei. <span class='gap'>12</span> ist elf Jahre alt. Wir essen zusammen und schauen einen Film. Die Geschwister helfen in der Küche. Danach spielen die Kinder draußen. Das ist unser Wochenende – mit allen zusammen."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Wie nennt man etwas, woran man eine Person erkennen oder ansprechen kann?",
+      "opties": ["der Tisch", "der Hund", "das Buch", "der Name"],
+      "correct_antwoord": "der Name",
+      "explanation": "\"der Name\" betekent \"de naam\", in de zin \"<span class='gap'>1</span> unserer Familie ist Bauer\" dus \"de naam\" is een logisch antwoord."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Wie nennt man eine Frau, die ein Kind geboren hat?",
+      "opties": ["Schwester", "Mutter", "Tante", "Oma"],
+      "correct_antwoord": "Mutter",
+      "explanation": "\"Mutter\" betekent \"moeder\", in de zin \"Unsere <span class='gap'>2</span> heißt Anna\" dus \"moeder\" is een logisch antwoord."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Wie nennt man die Ziffern, mit denen man jemanden anrufen kann?",
+      "opties": ["Jacke", "Tür", "Telefonnummer", "Adresse"],
+      "correct_antwoord": "Telefonnummer",
+      "explanation": "\"Telefonnummer\" betekent \"telefoonnummer\", in de zin \"Unsere <span class='gap'>3</span> ist 0341 789456\" dus \"telefoonnummer\" is een logisch antwoord."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wie nennt man einen männlichen Geschwisterteil?",
+      "opties": ["Opa", "Freund", "Vater", "Bruder"],
+      "correct_antwoord": "Bruder",
+      "explanation": "\"Bruder\" betekent \"broer\", in de zin \"Max hat einen <span class='gap'>4</span>\" dus \"broer\" is een logisch antwoord."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wie nennt man Bruder und Schwester zusammen?",
+      "opties": ["Geschwister", "Eltern", "Nachbarn", "Freunde"],
+      "correct_antwoord": "Geschwister",
+      "explanation": "\"Geschwister\" betekent \"broers en zussen\", in de zin \"Zusammen sind sie <span class='gap'>5</span>\" dus \"broers en zussen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Wie nennt man den Sohn von Tante oder Onkel?",
+      "opties": ["Cousin", "Bruder", "Lehrer", "Nachbar"],
+      "correct_antwoord": "Cousin",
+      "explanation": "\"Cousin\" betekent \"neef\", in de zin \"Sie haben auch einen <span class='gap'>6</span>\" dus \"neef\" is een logisch antwoord."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Wie heißt das Land, in dem Wien die Hauptstadt ist?",
+      "opties": ["Österreich", "Deutschland", "die Schweiz", "Frankreich"],
+      "correct_antwoord": "Österreich",
+      "explanation": "\"Österreich\" betekent \"Oostenrijk\", in de zin \"Er wohnt in <span class='gap'>7</span>\" dus \"Oostenrijk\" is een logisch antwoord."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie nennt man die Eltern von Mutter oder Vater?",
+      "opties": ["Kinder", "Großeltern", "Lehrer", "Eltern"],
+      "correct_antwoord": "die Großeltern",
+      "explanation": "\"Großeltern\" betekent \"grootouders\", in de zin \"Unsere <span class='gap'>8</span> wohnen in der <span class='gap'>9</span>\" dus \"grootouders\" is een logisch antwoord."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie heißt das Land mit vielen Bergen und der Hauptstadt Bern?",
+      "opties": ["Deutschland", "Österreich", "Schweiz", "Belgien"],
+      "correct_antwoord": "Schweiz",
+      "explanation": "\"Schweiz\" betekent \"Zwitserland\", in de zin \"Unsere Großeltern wohnen in der <span class='gap'>9</span>\" dus \"Zwitserland\" is een logisch antwoord."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Wie nennt man eine männliche Person, mit der man befreundet ist?",
+      "opties": ["Lehrer", "Vater", "Freund", "Nachbar"],
+      "correct_antwoord": "Freund",
+      "explanation": "\"Freund\" betekent \"vriend\", in de zin \"Tom hat einen <span class='gap'>10</span>, der nebenan wohnt\" dus \"vriend\" is een logisch antwoord."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Wie nennt man ein junges weibliches Kind?",
+      "opties": ["eine Frau", "eine Schwester", "ein Mädchen", "ein Kind"],
+      "correct_antwoord": "ein Mädchen",
+      "explanation": "\"Mädchen\" betekent \"meisje\", in de zin \"Max kennt auch <span class='gap'>11</span> aus seiner Klasse\" dus \"meisje\" is een logisch antwoord."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Wie nennt man ein junges männliches Kind?",
+      "opties": ["der Junge", "der Mann", "der Freund", "das Kind"],
+      "correct_antwoord": "der Junge",
+      "explanation": "\"der Junge\" betekent \"de jongen\", in de zin \"<span class='gap'>12</span> ist elf Jahre alt\" dus \"de jongen\" is een logisch antwoord."
+    }
+  ]
+}
