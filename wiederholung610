@@ -1,0 +1,171 @@
+{
+  "tekst": [
+    "Ich wohne seit einem Jahr in Italien. Es <span class='gap'>1</span> mir hier sehr gut. Ich lebe <span class='gap'>2</span> meinen Eltern und meiner Schwester in einem kleinen Haus. <span class='gap'>3</span> ist es gemütlich, aber manchmal etwas <span class='gap'>4</span>. Mein Zimmer ist <span class='gap'>5</span> unter dem Dach. Dort spiele ich oft <span class='gap'>6</span> oder schaue <span class='gap'>7</span>.",
+    "Im Winter kann man in den Bergen <span class='gap'>8</span>. Ich liebe das, aber ich kann es noch nicht so gut. Ich <span class='gap'>9</span> ein bisschen fahren und möchte es besser lernen. Wir fahren oft <span class='gap'>10</span> Südtirol. Dort ist es schön, aber oft <span class='gap'>11</span>.",
+    "In der Stadt gibt es viele Geschäfte. Meine Lieblingsläden sind <span class='gap'>12</span> und der Markt. Ich <span class='gap'>13</span> oft frisches Brot und <span class='gap'>14</span>. In der Bäckerei kann man auch <span class='gap'>15</span>, das ist praktisch. Die Verkäuferin ist nett und <span class='gap'>16</span> immer, was ich will.",
+    "Meine Lieblingskleidung ist eine <span class='gap'>17</span> und einen <span class='gap'>18</span>. Ich trage sie <span class='gap'>19</span>, wenn es warm ist. In der <span class='gap'>20</span> hilft meine Schwester manchmal beim Kochen. Abends <span class='gap'>21</span> wir uns alle und essen zusammen. <span class='gap'>22</span> gehen wir spazieren oder an den <span class='gap'>23</span>."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Welches Verb beschreibt, dass einem etwas gut oder schlecht erscheint?",
+      "opties": ["finden (findet)", "mögen (mag)", "lieben (liebt)", "gefallen (gefällt)"],
+      "correct_antwoord": "gefallen (gefällt)",
+      "explanation": "\"gefallen\" betekent \"bevallen\", in der Lücke 1 passt \"gefällt\" logisch, weil man damit ausdrückt, dass einem etwas gut erscheint."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Welches Wort benutzt man, wenn man sagt, dass man in Gesellschaft ist?",
+      "opties": ["mit", "zu", "bei", "durch"],
+      "correct_antwoord": "mit",
+      "explanation": "\"mit\" betekent \"met\", in der Lücke 2 passt \"mit\" logisch, weil man damit ausdrückt, dass man zusammen mit anderen lebt."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Was sagt man, wenn man im eigenen Haus ist?",
+      "opties": ["nach Hause", "zu Hause", "im Haus", "nach innen"],
+      "correct_antwoord": "zu Hause",
+      "explanation": "\"zu Hause\" bedeutet \"thuis\", in der Lücke 3 passt \"zu Hause\" logisch, weil es ausdrückt, dass man sich im eigenen Heim befindet."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Welches Adjektiv beschreibt, dass es wenig Licht gibt?",
+      "opties": ["dunkel", "hell", "freundlich", "sauber"],
+      "correct_antwoord": "dunkel",
+      "explanation": "\"dunkel\" bedeutet \"donker\", in der Lücke 4 passt \"dunkel\" logisch, weil es wenig Licht beschreibt."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wo befindet sich das Dach eines Hauses?",
+      "opties": ["unten", "vorne", "oben", "hinten"],
+      "correct_antwoord": "oben",
+      "explanation": "\"oben\" bedeutet \"boven\", in der Lücke 5 passt \"oben\" logisch, weil das Dach sich oben am Haus befindet."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Welches Musikinstrument hält man mit der Schulter und spielt mit dem Bogen?",
+      "opties": ["Gitarre", "Geige", "Klavier", "Schlagzeug"],
+      "correct_antwoord": "Geige",
+      "explanation": "\"die Geige\" betekent \"viool\", in der Lücke 6 passt \"Geige\" logisch, weil man sie mit Schulter und Bogen spielt."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Welches Gerät nutzt man, um Filme oder Sendungen zu sehen?",
+      "opties": ["Laptop", "Fernseher", "Handy", "Beamer"],
+      "correct_antwoord": "Fernseher",
+      "explanation": "\"der Fernseher\" bedeutet \"televisie\", in der Lücke 7 passt \"Fernseher\" logisch, weil man damit Sendungen schaut."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Was macht man im Winter in den Bergen mit Schnee?",
+      "opties": ["schwimmen", "springen", "Ski fahren", "reiten"],
+      "correct_antwoord": "Ski fahren",
+      "explanation": "\"Ski fahren\" betekent \"skiën\", in der Lücke 8 passt \"Ski fahren\" logisch, weil man damit auf Schnee fährt."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Welches Modalverb benutzt man, wenn man etwas tun kann?",
+      "opties": ["müssen (muß)", "dürfen (darf)", "können (kann)", "mögen (mag)"],
+      "correct_antwoord": "können (kann)",
+      "explanation": "\"können\" bedeutet \"kunnen\", in der Lücke 9 passt \"kann\" logisch, weil es die Fähigkeit ausdrückt."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Welche Präposition verwendet man bei einer Reise in eine Richtung?",
+      "opties": ["bei", "nach", "aus", "mit"],
+      "correct_antwoord": "nach",
+      "explanation": "\"nach\" bedeutet \"naar\", in der Lücke 10 passt \"nach\" logisch, weil man nach einem Ort reist."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Welches Wort benutzt man, wenn etwas viel Geld kostet?",
+      "opties": ["billig", "schnell", "teuer", "schön"],
+      "correct_antwoord": "teuer",
+      "explanation": "\"teuer\" bedeutet \"duur\", in der Lücke 11 passt \"teuer\" logisch, weil es hohe Kosten beschreibt."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Wo kauft man Brot und Brötchen?",
+      "opties": ["die Metzgerei", "der Supermarkt", "die Bäckerei", "die Post"],
+      "correct_antwoord": "die Bäckerei",
+      "explanation": "\"die Bäckerei\" bedeutet \"bakkerij\", in der Lücke 12 passt \"Bäckerei\" logisch, weil man dort Backwaren kauft."
+    },
+    {
+      "nummer": 13,
+      "vraag": "Welches Verb benutzt man, wenn man etwas benötigt?",
+      "opties": ["haben (habe)", "möchten (möchte)", "brauchen (brauche)", "nehmen (nehme)"],
+      "correct_antwoord": "brauchen",
+      "explanation": "\"brauchen\" bedeutet \"nodig hebben\", in der Lücke 13 passt \"brauchen\" logisch, weil man damit ausdrückt, dass man etwas benötigt."
+    },
+    {
+      "nummer": 14,
+      "vraag": "Was ist ein beliebtes Fleischprodukt auf dem Brot?",
+      "opties": ["Käse", "Schinken", "Wurst", "Butter"],
+      "correct_antwoord": "Schinken",
+      "explanation": "\"der Schinken\" bedeutet \"ham\", in der Lücke 14 passt \"Schinken\" logisch, weil man ihn auf Brot legt."
+    },
+    {
+      "nummer": 15,
+      "vraag": "Wie kann man bezahlen, wenn man kein Bargeld hat?",
+      "opties": ["mit Münzen", "mit Karte zahlen", "mit Scheck", "auf Rechnung"],
+      "correct_antwoord": "mit Karte zahlen",
+      "explanation": "\"mit Karte zahlen\" betekent \"met kaart betalen\", in der Lücke 15 passt diese Option, weil man so bargeldlos bezahlt."
+    },
+    {
+      "nummer": 16,
+      "vraag": "Welches Verb beschreibt, dass man Informationen kennt?",
+      "opties": ["wissen (weiß)", "fragen (fragt)", "sehen (sieht)", "lernen (lernt)"],
+      "correct_antwoord": "wissen (weiß)",
+      "explanation": "\"wissen\" bedeutet \"weten\", in der Lücke 16 passt \"weiß\" logisch, weil es Kenntnis ausdrückt."
+    },
+    {
+      "nummer": 17,
+      "vraag": "Wie nennt man eine Damenoberbekleidung mit Streifen?",
+      "opties": ["eine Jacke", "eine Bluse", "eine gestreifte Bluse", "ein Kleid"],
+      "correct_antwoord": "eine gestreifte Bluse",
+      "explanation": "\"eine gestreifte Bluse\" betekent \"gestreepte blouse\", in der Lücke 17 passt diese Option, weil sie genau gestreift ist."
+    },
+    {
+      "nummer": 18,
+      "vraag": "Welches Kleidungsstück tragen Frauen oft zusammen mit einer Bluse?",
+      "opties": ["Hose", "Rock", "Hemd", "Jacke"],
+      "correct_antwoord": "Rock",
+      "explanation": "\"der Rock\" bedeutet \"rok\", in der Lücke 18 passt \"Rock\" logisch, weil er oft mit Bluse getragen wird."
+    },
+    {
+      "nummer": 19,
+      "vraag": "Was bedeutet 'jeden einzelnen Tag'?",
+      "opties": ["nie", "jeden Tag", "oft", "immer"],
+      "correct_antwoord": "jeden Tag",
+      "explanation": "\"jeden Tag\" bedeutet \"elke dag\", in der Lücke 19 passt es, weil es tägliche Handlung beschreibt."
+    },
+    {
+      "nummer": 20,
+      "vraag": "Wo bereitet man zu Hause das Essen zu?",
+      "opties": ["Bad", "Küche", "Wohnzimmer", "Keller"],
+      "correct_antwoord": "Küche",
+      "explanation": "\"die Küche\" bedeutet \"keuken\", in der Lücke 20 passt \"Küche\" logisch, weil dort gekocht wird."
+    },
+    {
+      "nummer": 21,
+      "vraag": "Welches Reflexivverb bedeutet, dass man sich mit anderen Leuten sieht?",
+      "opties": ["(sich) treffen", "(sich) setzen", "(sich) freuen", "(sich) duschen"],
+      "correct_antwoord": "(sich) treffen",
+      "explanation": "\"(sich) treffen\" bedeutet \"afspreken\", in der Lücke 21 passt es, weil es das Zusammentreffen beschreibt."
+    },
+    {
+      "nummer": 22,
+      "vraag": "Welches Wort benutzt man für 'danach, im Anschluss'?",
+      "opties": ["bald", "später", "gleich", "vorher"],
+      "correct_antwoord": "später",
+      "explanation": "\"später\" bedeutet \"later\", in der Lücke 22 passt \"später\" logisch, weil es den zeitlichen Anschluss beschreibt."
+    },
+    {
+      "nummer": 23,
+      "vraag": "Wo liegt man oft im Sommer am Wasser?",
+      "opties": ["See", "Fluss", "Strand", "Schwimmbad"],
+      "correct_antwoord": "Strand",
+      "explanation": "\"der Strand\" bedeutet \"strand\", in der Lücke 23 passt \"Strand\" logisch, weil man dort am Wasser liegt."
+    }
+  ]
+}
