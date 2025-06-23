@@ -1,0 +1,94 @@
+{
+  "tekst": [
+    "In den Sommerferien fahren wir <span class='gap'>1</span>. Dieses Jahr fahren wir nach Italien. Wir fahren mit der <span class='gap'>2</span>, weil das umweltfreundlich ist. Die Fahrt ist lang, aber wir sitzen <span class='gap'>3</span> und spielen Karten. So wird es nicht langweilig.",
+    "Wir schlafen auf einem <span class='gap'>4</span>. Dort kann man zelten oder in kleinen Hütten <span class='gap'>5</span>. Das ist <span class='gap'>6</span> und macht Spaß. Jeden Morgen trinken wir heißen <span class='gap'>7</span> und essen Brötchen. Danach machen wir einen Ausflug.",
+    "Wir gehen oft an <span class='gap'>8</span>, weil wir dort schwimmen und spielen können. Wenn das Wetter schlecht ist, gehen wir in <span class='gap'>9</span>. Dort gibt es große Rutschen und warmes Wasser. Auch die Kinder haben viel Spaß.",
+    "Mittags essen wir in einem kleinen Restaurant. Ich nehme oft <span class='gap'>10</span>, meine Schwester isst gern <span class='gap'>11</span>. Mein Vater mag Pizza und meine Mutter isst manchmal nur einen Salat. Manchmal essen wir auch draußen – ganz einfach und <span class='gap'>12</span> Besteck."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Wie nennt man es, wenn man für Erholung verreist?",
+      "opties": ["in den Urlaub fahren", "zur Schule gehen", "arbeiten", "zu Hause bleiben"],
+      "correct_antwoord": "in den Urlaub fahren",
+      "explanation": "\"in den Urlaub fahren\" bedeutet \"op vakantie gaan\", in der Lücke 1 passt \"in den Urlaub fahren\" logisch, weil es beschreibt, dass man verreist, um sich zu erholen."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Welches Verkehrsmittel fährt auf Schienen und hat viele Wagen?",
+      "opties": ["Fahrrad", "Bus", "Bahn", "Flugzeug"],
+      "correct_antwoord": "die Bahn",
+      "explanation": "\"die Bahn\" bedeutet \"de trein\", in der Lücke 2 passt \"die Bahn\" logisch, weil die Bahn auf Schienen fährt und aus vielen Wagen besteht."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Wie nennt man es, wenn man nicht allein ist, sondern mit anderen?",
+      "opties": ["leise", "zusammen", "oben", "spät"],
+      "correct_antwoord": "zusammen",
+      "explanation": "\"zusammen\" bedeutet \"samen\", in der Lücke 3 passt \"zusammen\" logisch, weil man gemeinsam, also nicht allein sitzt."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wie heißt ein Platz, auf dem man zelten kann?",
+      "opties": ["Hotel", "Campingplatz", "Bahnhof", "Schule"],
+      "correct_antwoord": "Campingplatz",
+      "explanation": "\"Campingplatz\" bedeutet \"campingplaats\", in der Lücke 4 passt \"Campingplatz\" logisch, weil man dort zelten kann."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wie nennt man es, wenn man an einem Ort bleibt, um dort zu schlafen?",
+      "opties": ["vergessen", "übernachten", "verkaufen", "aussteigen"],
+      "correct_antwoord": "übernachten",
+      "explanation": "\"übernachten\" bedeutet \"overnachten\", in der Lücke 5 passt \"übernachten\" logisch, weil es beschreibt, dass man dort die Nacht verbringt."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Welches Wort bedeutet billig oder preiswert?",
+      "opties": ["teuer", "langsam", "günstig", "nass"],
+      "correct_antwoord": "günstig",
+      "explanation": "\"günstig\" bedeutet \"gunstig\", in der Lücke 6 passt \"günstig\" logisch, weil es preiswert bedeutet."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Welches Getränk trinken viele Menschen morgens?",
+      "opties": ["Milch", "Wasser", "Saft", "Kaffee"],
+      "correct_antwoord": "der Kaffee",
+      "explanation": "\"der Kaffee\" bedeutet \"de koffie\", in der Lücke 7 passt \"der Kaffee\" logisch, weil viele Menschen morgens Kaffee trinken."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie heißt der Ort mit viel Wasser, Wellen und Strand?",
+      "opties": ["der Wald", "das Meer", "die Stadt", "das Dorf"],
+      "correct_antwoord": "das Meer",
+      "explanation": "\"das Meer\" bedeutet \"de zee\", in der Lücke 8 passt \"das Meer\" logisch, weil man dort schwimmen und am Strand spielen kann."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie nennt man ein Gebäude, in dem man schwimmen kann?",
+      "opties": ["das Kino", "das Theater", "das Schwimmbad", "die Garage"],
+      "correct_antwoord": "das Schwimmbad",
+      "explanation": "\"das Schwimmbad\" bedeutet \"het zwembad\", in der Lücke 9 passt \"das Schwimmbad\" logisch, weil es ein Gebäude mit Pool und Rutschen ist."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Welche Speise besteht aus geschnittenen Kartoffeln und ist oft salzig?",
+      "opties": ["Käse", "Wurst", "Pommes", "Brot"],
+      "correct_antwoord": "Pommes",
+      "explanation": "\"Pommes\" bedeutet \"friet\", in der Lücke 10 passt \"Pommes\" logisch, weil damit frittierte Kartoffelscheiben gemeint sind."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Wie nennt man ein flüssiges Gericht, das man löffelt?",
+      "opties": ["Butter", "Suppe", "Tee", "Eis"],
+      "correct_antwoord": "Suppe",
+      "explanation": "\"Suppe\" bedeutet \"soep\", in der Lücke 11 passt \"Suppe\" logisch, weil es ein flüssiges Gericht ist, das man löffelt."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Welches Wort benutzt man, wenn man sagt, dass man etwas nicht hat?",
+      "opties": ["unter", "ohne", "über", "hinter"],
+      "correct_antwoord": "ohne",
+      "explanation": "\"ohne\" bedeutet \"zonder\", in der Lücke 12 passt \"ohne\" logisch, weil es ausdrückt, dass etwas fehlt oder nicht dabei ist."
+    }
+  ]
+}
