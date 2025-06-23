@@ -1,0 +1,94 @@
+{
+  "tekst": [
+    "Am Samstag gehe ich mit meiner Mutter einkaufen. Wir gehen in den Supermarkt. Wir brauchen viele Sachen für das Wochenende. Ich <span class='gap'>1</span> Äpfel, Bananen und etwas Schokolade kaufen. Meine Mutter sagt: „Wir <span class='gap'>2</span> frisches Obst und Gemüse.“",
+    "Im Kühlregal holen wir <span class='gap'>3</span>, <span class='gap'>4</span> und den <span class='gap'>5</span>. Die Milch ist für das Frühstück, die Butter für das Brot und der Käse für das Abendessen. Ich finde Käse mit Kräutern besonders lecker. Frische Lebensmittel sind <span class='gap'>6</span> als alte.",
+    "Wir gehen auch zur Fleischtheke. Meine Mutter kauft <span class='gap'>7</span>. Sie möchte Spaghetti Bolognese machen. Ich sehe den <span class='gap'>8</span> im Regal und frage: „Darf ich den mitnehmen?“ Der Kuchen ist <span class='gap'>9</span> und sieht sehr lecker aus.",
+    "Dann gehen wir zur Kasse. Wir legen alles aufs Band. Die Verkäuferin ist freundlich. Ich sehe einen Mann mit einem Hemd in <span class='gap'>10</span> und einer Hose in <span class='gap'>11</span>. Meine Mutter nimmt ihr Portmonnee und sagt: „Ich will jetzt <span class='gap'>12</span>.“ Dann gehen wir nach Hause."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Was sagt man, wenn man etwas gern kaufen will?",
+      "opties": ["spielen (spiele)", "möchten (möchte)", "lesen (lese)", "kommen (komme)"],
+      "correct_antwoord": "möchten (möchte)",
+      "explanation": "\"möchten (möchte)\" betekent \"zou willen\", in der Lücke 1 passt \"möchten (möchte)\" logisch, weil man damit ausdrückt, dass man etwas gern kaufen möchte."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Welches Verb benutzt man, wenn man etwas gern hat?",
+      "opties": ["mögen", "haben", "machen", "sein"],
+      "correct_antwoord": "mögen",
+      "explanation": "\"mögen\" bedeutet \"leuk vinden\", in der Lücke 2 passt \"mögen\" logisch, weil man damit ausdrückt, dass man frisches Obst und Gemüse gerne mag."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Was braucht man oft zum Frühstück und man kann es trinken?",
+      "opties": ["die Butter", "die Milch", "das Wasser", "der Tee"],
+      "correct_antwoord": "die Milch",
+      "explanation": "\"die Milch\" bedeutet \"de melk\", in der Lücke 3 passt \"die Milch\" logisch, weil Milch ein Getränk zum Frühstück ist."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Was streicht man auf das Brot?",
+      "opties": ["die Milch", "der Käse", "die Butter", "das Wasser"],
+      "correct_antwoord": "die Butter",
+      "explanation": "\"die Butter\" bedeutet \"de boter\", in der Lücke 4 passt \"die Butter\" logisch, weil man Butter aufs Brot streicht."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Was ist ein Milchprodukt, das man in Scheiben schneiden kann?",
+      "opties": ["Hackfleisch", "Käse", "Kuchen", "Brot"],
+      "correct_antwoord": "Käse",
+      "explanation": "\"Käse\" bedeutet \"kaas\", in der Lücke 5 passt \"Käse\" logisch, weil es ein Milchprodukt ist, das man in Scheiben schneiden kann."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Welches Wort benutzt man für einen Vergleich: gut – ______ – am besten?",
+      "opties": ["weniger", "kleiner", "besser", "schlechter"],
+      "correct_antwoord": "besser",
+      "explanation": "\"besser\" bedeutet \"beter\", in der Lücke 6 passt \"besser\" logisch, weil es den Komparativ zu \"gut\" bildet und frische Lebensmittel vergleicht."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Welches Fleisch benutzt man für Spaghetti Bolognese?",
+      "opties": ["das Hackfleisch", "die Wurst", "der Fisch", "der Käse"],
+      "correct_antwoord": "das Hackfleisch",
+      "explanation": "\"das Hackfleisch\" bedeutet \"het gehakt\", in der Lücke 7 passt \"das Hackfleisch\" logisch, weil man es für Spaghetti Bolognese verwendet."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Was ist süß und steht oft im Regal oder in der Bäckerei?",
+      "opties": ["Käse", "Kuchen", "Fleisch", "Milch"],
+      "correct_antwoord": "Kuchen",
+      "explanation": "\"Kuchen\" bedeutet \"cake\", in der Lücke 8 passt \"Kuchen\" logisch, weil Kuchen süß ist und in der Bäckerei verkauft wird."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie nennt man ein Produkt, das frisch im Laden angekommen ist?",
+      "opties": ["alt", "neu", "gebraucht", "kaputt"],
+      "correct_antwoord": "neu",
+      "explanation": "\"neu\" bedeutet \"nieuw\", in der Lücke 9 passt \"neu\" logisch, weil es beschreibt, dass etwas frisch im Laden angekommen ist."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Welche Farbe hat Gras?",
+      "opties": ["blau", "rot", "gelb", "grün"],
+      "correct_antwoord": "grün",
+      "explanation": "\"grün\" bedeutet \"groen\", in der Lücke 10 passt \"grün\" logisch, weil Gras grün ist."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Welche Farbe hat Schokolade oder Erde?",
+      "opties": ["braun", "weiß", "blau", "rot"],
+      "correct_antwoord": "braun",
+      "explanation": "\"braun\" bedeutet \"bruin\", in der Lücke 11 passt \"braun\" logisch, weil Schokolade und Erde braun sind."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Was macht man an der Kasse mit dem Geld?",
+      "opties": ["kochen", "fahren", "zahlen", "spielen"],
+      "correct_antwoord": "zahlen",
+      "explanation": "\"zahlen\" bedeutet \"betalen\", in der Lücke 12 passt \"zahlen\" logisch, weil man an der Kasse bezahlt."
+    }
+  ]
+}
