@@ -1,0 +1,613 @@
+<!-- Plaats dit exact waar je de quiz wilt tonen -->
+<div id="quiz-app">
+  <!-- ===== STARTSCHERM ===== -->
+  <div id="start-screen">
+    <h1>Kies een oefening</h1>
+    <div class="start-buttons">
+      <button id="start-oefening1" class="start-button">Oefening 1</button>
+      <button id="start-oefening2" class="start-button">Oefening 2</button>
+    </div>
+  </div>
+
+  <!-- ===== QUIZSCHERM (WORDT DYNAMISCH GEACTIVEERD) ===== -->
+  <div id="quiz-container-wrapper" style="display: none;">
+    <!-- Escape-button: klein vierkantje rechtsbovenin -->
+    <button id="escape-button" class="escape-button" title="Terug naar start">&times;</button>
+
+    <h1>EFFECTIEF LEREN</h1>
+
+    <!-- Tekst met genummerde gaten (wordt via JS ingevuld) -->
+    <div class="tekst-blokken" id="tekst-blokken"></div>
+
+    <!-- Quiz-container: vraag + opties + uitleg + motivatie + next -->
+    <div id="quiz-container">
+      <div class="vraag-container">
+        <div id="vraag-tekst" class="vraag-tekst"></div>
+        <ul id="opties-container" class="opties-container"></ul>
+      </div>
+      <div id="explanation" class="explanation" style="display: none;"></div>
+      <div id="motivatie" class="motivatie" style="display: none;"></div>
+      <button id="next-button" class="next-button" style="display: none;">Volgende vraag</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ===================================================
+     Alle stijlen uitsluitend binnen #quiz-app scoped
+     (er ’leakt’ niets naar de rest van je thema)
+     =================================================== */
+
+  /* Outer container met afgeronde hoeken, witte achtergrond */
+  #quiz-app {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative; /* nodigt absolute-posities binnenin uit */
+  }
+
+  /* ===== STIJLEN VOOR HET STARTSCHERM ===== */
+  #start-screen {
+    text-align: center;
+  }
+  #start-screen h1 {
+    margin-bottom: 2rem;
+  }
+  .start-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .start-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #1679ab;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  .start-button:hover {
+    background-color: #145a8a;
+    transform: scale(1.05);
+  }
+
+  /* ===== STIJLEN VOOR HET QUIZSCHERM ===== */
+  #quiz-container-wrapper {
+    display: block; /* wordt via JS zichtbaar/verborgen */
+    position: relative; /* voor de absolute escape-button */
+  }
+  #quiz-container-wrapper h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Escape-button: klein vierkantje rechtsbovenin, lichtblauw, met zwarte “×” */
+  .escape-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background-color: #e0f7fa;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.2s;
+  }
+  .escape-button:hover {
+    background-color: #b2ebf2;
+  }
+
+  /* Tekstblokken: lichtblauw kader met afgeronde hoeken */
+  #quiz-app .tekst-blokken {
+    background: #e0f7fa;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  #quiz-app .tekst-blokken p {
+    margin: 0.5rem 0;
+  }
+
+  /* Gaps: grijze hokjes met afgeronde hoeken, inline naast elkaar */
+  #quiz-app .gap {
+    display: inline-block;
+    background-color: #b0bec5;
+    color: inherit;
+    padding: 0.2rem 0.6rem; 
+    margin: 0 0.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    min-width: 1.5rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    white-space: nowrap;
+  }
+  /* Geel vakje als ’active’ */
+  #quiz-app .gap.active {
+    background-color: #fff176;
+    transform: scale(1.1);
+  }
+
+  /* Filled: groen hokje bij correct antwoord */
+  #quiz-app .filled {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    margin: 0 0.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    animation: fadeIn 0.4s ease;
+    white-space: nowrap;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  /* Vraag-container: afgerond kader, wit achtergrond */
+  #quiz-app .vraag-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+  }
+  #quiz-app .vraag-tekst {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Horizontale rij voor antwoordknoppen */
+  #quiz-app .opties-container {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #quiz-app .opties-container li {
+    list-style: none;
+    flex: 1;
+  }
+  #quiz-app .optie-button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #1679ab;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    font: inherit;
+  }
+  #quiz-app .optie-button:hover {
+    background-color: #145a8a;
+    transform: scale(1.02);
+  }
+  #quiz-app .optie-button.correct {
+    background-color: #28a745 !important;
+    border: 1px solid #28a745;
+    animation: correctPulse 0.4s ease;
+  }
+  @keyframes correctPulse {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  #quiz-app .optie-button.incorrect {
+    background-color: #f8d7da !important;
+    border: 1px solid #dc3545;
+    color: #721c24 !important;
+    animation: shake 0.3s ease;
+  }
+  @keyframes shake {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-4px); }
+    50%  { transform: translateX(4px); }
+    75%  { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+  }
+
+  /* Explanation & Motivatie: afgerond kader, fade-in */
+  #quiz-app .explanation,
+  #quiz-app .motivatie {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    opacity: 0;
+    animation: fadeInText 0.4s forwards;
+    font: inherit;
+    white-space: normal;
+  }
+  #quiz-app .explanation {
+    background-color: #eef6ff;
+    border-left: 4px solid #007bff;
+  }
+  #quiz-app .motivatie {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffeeba;
+    color: #856404;
+  }
+  @keyframes fadeInText {
+    to { opacity: 1; }
+  }
+
+  /* Next / Retry / Stop knoppen: #1679ab, afgerond */
+  #quiz-app .next-button,
+  #quiz-app .retry-button,
+  #quiz-app .stop-button {
+    background-color: #1679ab;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    margin-top: 1rem;
+  }
+  #quiz-app .next-button:hover,
+  #quiz-app .retry-button:hover,
+  #quiz-app .stop-button:hover {
+    background-color: #145a8a;
+    transform: scale(1.02);
+  }
+  #quiz-app .next-button:disabled {
+    background-color: #6c757d !important;
+    cursor: default;
+  }
+
+  /* Resultaat-container: afgerond kader, witte achtergrond */
+  #quiz-app .resultaat-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  /* Woord-blokken in twee kolommen */
+  #quiz-app .resultaat-container div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  #quiz-app .woord-blok {
+    flex: 1 1 calc(50% - 1rem);
+    margin: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font: inherit;
+    text-align: center;
+  }
+  #quiz-app .woord-blok:hover {
+    transform: scale(1.05);
+  }
+  #quiz-app .woord-blok.correct { background-color: #28a745; }
+  #quiz-app .woord-blok.incorrect { background-color: #dc3545; }
+</style>
+
+<script>
+  (function(){
+    // URLs voor de oefeningen
+    const URL_OEFENING_1 = "./test.json";
+    const URL_OEFENING_2 = "./test2.json";
+
+    // Quiz‐state
+    let vragen = [];
+    let tekstArray = [];
+    let initialTextHTML = "";
+    let initialQuizHTML = "";
+    let huidigeIndex = 0;
+    let score = 0;
+
+    // DOM‐elementen binnen #quiz-app die niet vaak veranderen
+    const startScreen  = document.getElementById("start-screen");
+    const startBtn1    = document.getElementById("start-oefening1");
+    const startBtn2    = document.getElementById("start-oefening2");
+    const quizWrapper  = document.getElementById("quiz-container-wrapper");
+    const escapeButton = document.getElementById("escape-button");
+    const quizApp      = document.getElementById("quiz-app");
+
+    // “Statische” HTML-templates (nog leeg) om later te herstellen
+    const quizContainerStaticHTML = document.querySelector("#quiz-container").innerHTML;
+    const tekstBlokkenStaticHTML  = document.querySelector("#tekst-blokken").innerHTML;
+
+    // Variabelen voor quiz‐elementen (worden telkens opnieuw geselecteerd na innerHTML‐wijziging)
+    let tekstBlokkenEl;
+    let quizContainerEl;
+    let vraagTekstDiv;
+    let optiesContainer;
+    let explanationDiv;
+    let motivatieDiv;
+    let nextButton;
+
+    // Eventlisteners voor de start‐knoppen
+    startBtn1.addEventListener("click", () => startQuiz(URL_OEFENING_1));
+    startBtn2.addEventListener("click", () => startQuiz(URL_OEFENING_2));
+
+    // Eventlistener voor de escape-button (terug naar startscherm)
+    escapeButton.addEventListener("click", () => {
+      // Verberg quiz, toon startscherm
+      quizWrapper.style.display = "none";
+      startScreen.style.display = "block";
+
+      // Reset quiz‐state
+      vragen = [];
+      tekstArray = [];
+      huidigeIndex = 0;
+      score = 0;
+
+      // Zet quizContainer en tekstBlokken terug naar hun statische HTML
+      document.querySelector("#quiz-container").innerHTML = quizContainerStaticHTML;
+      document.querySelector("#tekst-blokken").innerHTML  = tekstBlokkenStaticHTML;
+    });
+
+    // Functie om de quiz te starten met de gekozen URL
+    function startQuiz(dataUrl) {
+      // Verberg startscherm en toon quizgedeelte
+      startScreen.style.display = "none";
+      quizWrapper.style.display = "block";
+
+      // Fetch de JSON-data en initialiseer quiz
+      fetch(dataUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Kon quizdata niet laden vanaf GitHub: " + response.statusText);
+          }
+          return response.json();
+        })
+        .then(data => {
+          // 1) Sla tekst-array op en render de tekstblokken
+          tekstArray = data.tekst.slice();
+          initialTextHTML = tekstArray.map(p => `<p>${p}</p>`).join("");
+          document.querySelector("#tekst-blokken").innerHTML = initialTextHTML;
+
+          // 2) Sla vragen op
+          vragen = data.vragen.map(q => ({
+            nummer: q.nummer,
+            vraag: q.vraag,
+            opties: q.opties.slice(),
+            correct_antwoord: q.correct_antwoord,
+            explanation: q.explanation,
+            answeredCorrectly: false,
+            wrongAttempted: false
+          }));
+
+          // 3) Sla initiële quiz-container HTML (template) op
+          initialQuizHTML = document.querySelector("#quiz-container").innerHTML;
+
+          // 4) Selecteer nú alle quiz‐elementen uit de DOM
+          selectQuizElements();
+
+          // 5) Start quiz
+          attachElements();
+          laadVraag(huidigeIndex);
+        })
+        .catch(err => {
+          console.error(err);
+          quizApp.innerHTML = "<p style='color: red; text-align:center;'>Er is een fout opgetreden bij het laden van de quiz. Probeer later opnieuw.</p>";
+        });
+    }
+
+    // Selecteer alle DOM‐elementen die na innerHTML‐wijzigingen nodig zijn
+    function selectQuizElements() {
+      tekstBlokkenEl   = document.querySelector("#tekst-blokken");
+      quizContainerEl  = document.querySelector("#quiz-container");
+      vraagTekstDiv    = document.querySelector("#vraag-tekst");
+      optiesContainer  = document.querySelector("#opties-container");
+      explanationDiv   = document.querySelector("#explanation");
+      motivatieDiv     = document.querySelector("#motivatie");
+      nextButton       = document.querySelector("#next-button");
+    }
+
+    // ========================================
+    // ↳ FUNCTIES VOOR QUIZLOGICA
+    // ========================================
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function attachElements() {
+      // Eerst zeker weten dat we de juiste 'next-button' hebben
+      selectQuizElements();
+      nextButton.addEventListener("click", handleNext);
+    }
+
+    function laadVraag(index) {
+      // Na elke innerHTML-reset altijd wéér de elementreferenties ophalen
+      selectQuizElements();
+
+      // Reset uitleg/motivatie/knoppen
+      explanationDiv.style.display = "none";
+      explanationDiv.textContent = "";
+      motivatieDiv.style.display = "none";
+      motivatieDiv.textContent = "";
+      nextButton.style.display = "none";
+
+      // Verwijder alle 'active' klassen op gaps
+      tekstBlokkenEl.querySelectorAll(".gap").forEach(span => {
+        span.classList.remove("active");
+      });
+
+      // Markeer enkel de actieve gap – op basis van vragen[index].nummer
+      const q = vragen[index];
+      tekstBlokkenEl.querySelectorAll(".gap").forEach(span => {
+        if (span.textContent === String(q.nummer)) {
+          span.classList.add("active");
+        }
+      });
+
+      vraagTekstDiv.textContent = q.vraag;
+
+      // Shuffle de opties voor deze vraag
+      const geshuffleOpts = shuffleArray([...q.opties]);
+      optiesContainer.innerHTML = "";
+
+      geshuffleOpts.forEach(optieTekst => {
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.classList.add("optie-button");
+        btn.textContent = optieTekst;
+        btn.addEventListener("click", () => controleerAntwoord(btn, q));
+        li.appendChild(btn);
+        optiesContainer.appendChild(li);
+      });
+    }
+
+    function controleerAntwoord(button, vraagObj) {
+      const gekozen = button.textContent;
+      if (vraagObj.answeredCorrectly) return;
+
+      if (gekozen === vraagObj.correct_antwoord) {
+        // Juiste klik
+        button.classList.remove("incorrect");
+        button.classList.add("correct");
+
+        if (!vraagObj.answeredCorrectly) {
+          score++;
+          vraagObj.answeredCorrectly = true;
+        }
+
+        // Na correct antwoord: vervang gap door filled
+        tekstBlokkenEl.querySelectorAll(".gap").forEach(span => {
+          if (span.textContent === String(vraagObj.nummer)) {
+            const filled = document.createElement("span");
+            filled.className = 'filled';
+            filled.textContent = vraagObj.correct_antwoord;
+            span.replaceWith(filled);
+          }
+        });
+
+        // Toon uitleg en schakel alle opties uit
+        explanationDiv.textContent = vraagObj.explanation;
+        explanationDiv.style.display = "block";
+        document.querySelectorAll(".optie-button").forEach(btn => btn.disabled = true);
+
+        // Motivatie na vraag #5 (index 4)
+        if (huidigeIndex === 4) {
+          motivatieDiv.textContent = "Je hebt al 5 vragen beantwoord. Goed bezig, ga zo door!";
+          motivatieDiv.style.display = "block";
+        }
+
+        // Toon 'Volgende' of 'Einde oefening'
+        if (huidigeIndex < vragen.length - 1) {
+          nextButton.textContent = "Volgende vraag";
+          nextButton.style.display = "inline-block";
+        } else {
+          nextButton.textContent = "Einde oefening";
+          nextButton.style.display = "inline-block";
+        }
+      } else {
+        // Fout antwoord → markeer enkel fout, laat score onveranderd
+        button.classList.add("incorrect");
+        if (!vraagObj.wrongAttempted) vraagObj.wrongAttempted = true;
+      }
+    }
+
+    function handleNext() {
+      if (huidigeIndex < vragen.length - 1) {
+        huidigeIndex++;
+        laadVraag(huidigeIndex);
+      } else {
+        toonResultaat();
+      }
+    }
+
+    function resetQuiz() {
+      vragen.forEach(q => {
+        q.answeredCorrectly = false;
+        q.wrongAttempted   = false;
+      });
+      huidigeIndex = 0;
+      score = 0;
+
+      // Herstel quizContainer en tekstBlokken naar de initiële HTML
+      document.querySelector("#quiz-container").innerHTML = initialQuizHTML;
+      document.querySelector("#tekst-blokken").innerHTML    = initialTextHTML;
+
+      // Start weer bij vraag 0
+      selectQuizElements();
+      attachElements();
+      laadVraag(huidigeIndex);
+    }
+
+    function jumpToQuestion(index) {
+      huidigeIndex = index;
+      document.querySelector("#quiz-container").innerHTML = initialQuizHTML;
+      document.querySelector("#tekst-blokken").innerHTML    = initialTextHTML;
+      selectQuizElements();
+      attachElements();
+      laadVraag(index);
+    }
+
+    function toonResultaat() {
+      selectQuizElements();
+      const totaal = vragen.length;
+      const percentage = Math.round((score / totaal) * 100);
+      let resultHTML = `<div class="resultaat-container">`;
+      resultHTML += `<p>Je hebt ${score} van de ${totaal} vragen goed beantwoord! (${percentage}%).</p>`;
+      if (percentage > 70) {
+        resultHTML += `<p>Goed gedaan! 🎉</p>`;
+      } else {
+        resultHTML += `<p>Probeer het nog eens!</p>`;
+      }
+
+      resultHTML += `<div>`;
+      vragen.forEach((q, idx) => {
+        const woord = q.correct_antwoord;
+        const klasse = q.wrongAttempted ? 'incorrect' : 'correct';
+        resultHTML += `<span class="woord-blok ${klasse}" data-index="${idx}">${woord}</span>`;
+      });
+      resultHTML += `</div>`;
+
+      resultHTML += `<div class="action-buttons">
+        <button class="retry-button" id="retry-button">Opnieuw starten</button>
+        <button class="stop-button"  id="stop-button">Stoppen</button>
+      </div>`;
+      resultHTML += `</div>`;
+
+      quizContainerEl.innerHTML = resultHTML;
+
+      // Eventlisteners voor retry en stop
+      document.getElementById("retry-button").addEventListener("click", resetQuiz);
+      document.getElementById("stop-button").addEventListener("click", () => {
+        quizContainerEl.innerHTML = `<p>Bedankt voor het spelen!</p>`;
+      });
+
+      // Klik op een woordblok brengt je terug naar die vraag
+      document.querySelectorAll('.woord-blok').forEach(span => {
+        span.addEventListener('click', () => {
+          const idx = parseInt(span.getAttribute('data-index'), 10);
+          jumpToQuestion(idx);
+        });
+      });
+    }
+  })();
+</script>
