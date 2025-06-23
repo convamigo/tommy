@@ -1,0 +1,94 @@
+{
+  "tekst": [
+    "In einem kleinen Dorf lebt eine <span class='gap'>1</span> auf dem Bauernhof. Sie frisst jeden Tag frisches Gras. Kühe geben Milch, und aus Milch kann man Käse machen. Viele Kinder besuchen die Kuh und streicheln sie gern. Auf dem Tisch zu Hause gibt es oft <span class='gap'>2</span>. Der ist frisch, grün und gesund. Auch <span class='gap'>3</span> schmeckt gut – Äpfel, Bananen oder Trauben sind bei allen beliebt.",
+    "Am Wochenende gehen wir gern in <span class='gap'>4</span>. Dort gibt es viele leckere Gerichte. Auf der <span class='gap'>5</span> stehen Pizza, Suppe und <span class='gap'>6</span>. Der ist warm und passt gut zu Gemüse. Meine Mutter bestellt oft einen großen <span class='gap'>7</span> mit Fisch und Kartoffeln. Mein Vater trinkt dazu ein Glas Wasser. Wir freuen uns immer auf das gemeinsame Essen mit der Familie.",
+    "Die Kinder essen am liebsten <span class='gap'>8</span>. Eis, Pudding oder Kuchen – alles ist süß und lecker. Im Restaurant kann man ihn am Ende bestellen. Die Bedienung bringt danach die <span class='gap'>9</span>, wenn man fertig ist. Dann weiß man, wie viel man bezahlen muss. Manchmal <span class='gap'>10</span> sich meine Schwester noch ein Eis extra. Dann wird es ein besonders schöner Tag.",
+    "<span class='gap'>11</span> ist auch sehr wichtig. Karotten, Tomaten und Gurken sind gesund. Wir essen sie oft zum Mittagessen. Es schmeckt gut mit Reis oder Fleisch. Mein kleiner Bruder will manchmal nichts essen, aber mit einem bunten Teller klappt es besser. Auch die Tiere <span class='gap'>12</span> es gern – zum Beispiel Hasen und Meerschweinchen."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Welches Tier lebt auf dem Bauernhof und gibt Milch?",
+      "opties": ["die Katze", "die Kuh", "der Hund", "das Kaninchen"],
+      "correct_antwoord": "die Kuh",
+      "explanation": "\"die Kuh\" betekent \"de koe\", in der Lücke 1 passt \"die Kuh\" logisch, weil Kühe Milch geben und auf einem Bauernhof leben."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Wie heißt das grüne, gesunde Essen, das oft als Vorspeise kommt?",
+      "opties": ["Salat", "Suppe", "Käse", "Brot"],
+      "correct_antwoord": "Salat",
+      "explanation": "\"Salat\" bedeutet \"sla\", in der Lücke 2 passt \"Salat\" logisch, weil Salat frisch, grün und gesund ist."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Wie nennt man Äpfel, Bananen und Trauben zusammen?",
+      "opties": ["das Gemüse", "das Obst", "die Milch", "der Reis"],
+      "correct_antwoord": "das Obst",
+      "explanation": "\"das Obst\" betekent \"het fruit\", in der Lücke 3 passt \"das Obst\" logisch, weil Äpfel, Bananen und Trauben Obst sind."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wo geht man hin, um Essen zu bestellen und zu essen?",
+      "opties": ["das Restaurant", "die Schule", "das Kino", "die Küche"],
+      "correct_antwoord": "das Restaurant",
+      "explanation": "\"das Restaurant\" betekent \"het restaurant\", in der Lücke 4 passt \"das Restaurant\" logisch, weil man dort Essen bestellt und isst."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wie heißt die Liste mit allen Gerichten im Restaurant?",
+      "opties": ["Rechnung", "Tisch", "Speisekarte", "Einkauf"],
+      "correct_antwoord": "Speisekarte",
+      "explanation": "\"Speisekarte\" bedeutet \"menu\", in der Lücke 5 passt \"Speisekarte\" logisch, weil sie alle Gerichte im Restaurant auflistet."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Was isst man oft warm, zum Beispiel mit Fleisch oder Gemüse?",
+      "opties": ["Käse", "Suppe", "Reis", "Wurst"],
+      "correct_antwoord": "der Reis",
+      "explanation": "\"der Reis\" betekent \"de rijst\", in der Lücke 6 passt \"der Reis\" logisch, weil Reis warm serviert und gut zu Gemüse passt."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Wie heißt das runde Ding, auf dem das Essen liegt?",
+      "opties": ["Pfanne", "Teller", "Glas", "Schüssel"],
+      "correct_antwoord": "der Teller",
+      "explanation": "\"der Teller\" betekent \"het bord\", in der Lücke 7 passt \"der Teller\" logisch, weil Teller das runde Gefäß für Essen ist."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie nennt man etwas Süßes, das man nach dem Essen isst?",
+      "opties": ["einen Nachtisch", "einnFrühstück", "einen Suppe", "einen Salat"],
+      "correct_antwoord": "einen Nachtisch",
+      "explanation": "\"einen Nachtisch\" betekent \"een toetje\", in der Lücke 8 passt \"einen Nachtisch\" logisch, weil man nach dem Essen etwas Süßes isst."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Was bekommt man am Ende im Restaurant, um zu bezahlen?",
+      "opties": ["die Speisekarte", "die Rechnung", "der Nachtisch", "die Einladung"],
+      "correct_antwoord": "die Rechnung",
+      "explanation": "\"die Rechnung\" betekent \"de rekening\", in der Lücke 9 passt \"die Rechnung\" logisch, weil man sie am Ende im Restaurant bekommt."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Was macht man, wenn man etwas gern haben möchte?",
+      "opties": ["nehmen", "wünschen", "lesen", "sehen"],
+      "correct_antwoord": "wünschen",
+      "explanation": "\"wünschen\" betekent \"wensen\", in der Lücke 10 passt \"wünschen\" logisch, weil man wünscht, wenn man etwas gern haben möchte."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Was sind Karotten, Tomaten und Gurken?",
+      "opties": ["das Obst", "das Gemüse", "die Getränke", "die Süßigkeiten"],
+      "correct_antwoord": "das Gemüse",
+      "explanation": "\"das Gemüse\" betekent \"de groente\", in der Lücke 11 passt \"das Gemüse\" logisch, weil Karotten, Tomaten und Gurken Gemüse sind."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Wie nennt man es, wenn Tiere essen?",
+      "opties": ["essen", "trinken", "fressen", "kochen"],
+      "correct_antwoord": "fressen",
+      "explanation": "\"fressen\" betekent \"eten (bij dieren)\", in der Lücke 12 passt \"fressen\" logisch, weil das das Verb ist, wenn Tiere essen."
+    }
+  ]
+}
