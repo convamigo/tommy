@@ -1,0 +1,93 @@
+{
+  "tekst": [
+    "Hallo! Ich möchte euch meine Schule <span class='gap'>1</span>. Sie liegt in einem kleinen Ort in Deutschland: Garbsen. Unsere Schule ist modern und hat viele Klassenzimmer. Die Schüler und Schülerinnen sind <span class='gap'>2</span>. Wir haben etwa <span class='gap'>3</span> Kinder in jeder Jahrgangsstufe. Die Lehrer sind freundlich und helfen uns gern. Ich gehe gern in die Schule, weil ich dort viel lerne und meine Freunde sehe.",
+    "Mein Lieblings<span class='gap'>4</span> ist Herr Weber. Er unterrichtet <span class='gap'>5</span> und <span class='gap'>6</span>. Die Fächer sind spannend, und er erklärt alles <span class='gap'>7</span> gut. Wir schreiben manchmal einen <span class='gap'>8</span>, aber das ist kein Problem. In der <span class='gap'>9</span> gehen wir oft auf den Schulhof. Dort spielen wir Fußball oder essen ein Brot. Danach gehen wir wieder ins Klassenzimmer und <span class='gap'>10</span> weiter mit dem Unterricht.",
+    "Ich gehe auf eine <span class='gap'>11</span>. Sie ist größer als die Grundschule. Es gibt viele Fächer und auch verschiedene Lehrer. Nach der Schule mache ich meine <span class='gap'>12</span>. Manchmal sind sie leicht, manchmal schwer. Am liebsten mache ich Mathe und Kunst. Deutsch ist manchmal schwierig, aber ich übe viel."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Welches Wort benutzt man, wenn man sich oder etwas anderen Leuten bekannt machen möchte?",
+      "opties": ["erklären", "beginnen", "lesen", "vorstellen"],
+      "correct_antwoord": "vorstellen",
+      "explanation": "\"vorstellen\" betekent \"voorstellen/introdceren\", in de zin \"Ich möchte euch meine Schule __1__\" dus \"voorstellen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Welches Wort beschreibt eine freundliche und sympathische Person?",
+      "opties": ["nett", "schwierig", "laut", "fleißig"],
+      "correct_antwoord": "nett",
+      "explanation": "\"nett\" betekent \"vriendelijk\", in de zin \"Die Schüler und Schülerinnen sind __2__\" dus \"vriendelijk\" is een logisch antwoord."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Welches Zahlwort steht für 70?",
+      "opties": ["siebzehn", "siebzig", "sechzig", "sieben"],
+      "correct_antwoord": "siebzig",
+      "explanation": "\"siebzig\" betekent \"zeventig\", in de zin \"Wir haben etwa __3__ Kinder\" dus \"zeventig\" is een logisch antwoord."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wie nennt man eine männliche Person, die an der Schule unterrichtet?",
+      "opties": ["Freund", "Lehrer", "Schüler", "Vater"],
+      "correct_antwoord": "Lehrer",
+      "explanation": "\"Lehrer\" betekent \"leraar\", in de zin \"Mein Lieblings__4__ ist Herr Weber\" dus \"leraar\" is een logisch antwoord."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wie heißt das Fach, in dem man die deutsche Sprache lernt?",
+      "opties": ["Englisch", "Biologie", "Deutsch", "Mathe"],
+      "correct_antwoord": "Deutsch",
+      "explanation": "\"Deutsch\" betekent \"Duits\", in de zin \"Er unterrichtet __5__\" dus \"Duits\" is een logisch antwoord."
+    },
+    {
+      "nummer": 6,
+      "vraag": "In welchem Fach lernt man etwas über frühere Zeiten und Ereignisse?",
+      "opties": ["Physik", "Geschichte", "Geografie", "Deutsch"],
+      "correct_antwoord": "Geschichte",
+      "explanation": "\"Geschichte\" betekent \"geschiedenis\", in de zin \"Er unterrichtet __6__\" dus \"geschiedenis\" is een logisch antwoord."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Welches Wort bedeutet, dass etwas in hohem Maße oder stark ist?",
+      "opties": ["oft", "sehr", "immer", "wenig"],
+      "correct_antwoord": "sehr",
+      "explanation": "\"sehr\" betekent \"heel/erg\", in de zin \"er erklärt alles __7__ gut\" dus \"heel goed\" is een logisch antwoord."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie heißt eine schriftliche Prüfung in der Schule?",
+      "opties": ["Pause", "Buch", "Test", "Heft"],
+      "correct_antwoord": "Test",
+      "explanation": "\"Test\" betekent \"toets\", in de zin \"Wir schreiben manchmal einen __8__\" dus \"toets\" is een logisch antwoord."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie nennt man die Zeit zwischen zwei Unterrichtsstunden, in der man sich ausruhen kann?",
+      "opties": ["Stunde", "Pause", "Hof", "Test"],
+      "correct_antwoord": "Pause",
+      "explanation": "\"Pause\" betekent \"pauze\", in de zin \"In der __9__ gehen wir oft auf den Schulhof\" dus \"pauze\" is een logisch antwoord."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Welches Verb benutzt man, wenn man eine Tätigkeit ausführt?",
+      "opties": ["lesen", "spielen", "machen", "sehen"],
+      "correct_antwoord": "machen",
+      "explanation": "\"machen\" betekent \"doen/maken\", in de zin \"Danach gehen wir wieder ins Klassenzimmer und __10__ weiter mit dem Unterricht\" dus \"doen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Wie nennt man eine Schulform in Deutschland, die nach der Grundschule folgt?",
+      "opties": ["Realschule", "Universität", "Grundschule", "Kindergarten"],
+      "correct_antwoord": "Realschule",
+      "explanation": "\"Realschule\" betekent \"een type middelbare school\", in de zin \"Ich gehe auf eine __11__\" dus \"Realschule\" is een logisch antwoord."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Wie nennt man die Aufgaben, die man zu Hause für die Schule machen muss?",
+      "opties": ["Schulmappe", "Hausaufgaben", "Bücher", "Fächer"],
+      "correct_antwoord": "Hausaufgaben",
+      "explanation": "\"Hausaufgaben\" betekent \"huiswerk\", in de zin \"Nach der Schule mache ich meine __12__\" dus \"huiswerk\" is een logisch antwoord."
+    }
+  ]
+}
