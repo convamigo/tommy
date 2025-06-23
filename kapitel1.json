@@ -1,0 +1,94 @@
+{
+  "tekst": [
+    "Hallo! Ich heiße Lisa und ich bin <span class='gap'>1</span> Jahre <span class='gap'>2</span>. Ich <span class='gap'>3</span> <span class='gap'>4</span> <span class='gap'>5</span>, aber ich <span class='gap'>6</span> jetzt in den <span class='gap'>7</span>. Ich spreche ein bisschen Deutsch und ein bisschen Niederländisch. In meiner Schule habe ich viele Freunde. Meine Lehrerin ist sehr nett. Ich mag Mathe und Sport sehr gern.",
+    "Ich wohne mit meiner Familie in einer kleinen Stadt. <span class='gap'>8</span> heißt Tulpenstraße. Sie ist ruhig und grün. Unsere Wohnung ist nicht sehr groß, aber wir haben einen schönen Garten. In unserer Straße wohnen viele Kinder. Wir spielen oft zusammen draußen. Das macht Spaß, besonders im Sommer.",
+    "Meine <span class='gap'>9</span> ist: Tulpenstraße 9. Das Haus ist weiß und hat drei Fenster vorne. Wir wohnen im zweiten Stock. Meine Eltern <span class='gap'>10</span> Anna und Tim. Sie leben schon seit <span class='gap'>11</span> Jahren in den Niederlanden. Mein kleiner Bruder ist zwei Jahre alt.",
+    "Ich gehe gern spazieren und lese Bücher. Ich liebe Tiere. Ich habe einen Hund. Er heißt Bello, ist ein <span class='gap'>12</span> alt und sehr lieb. Wir spielen jeden Tag im Park. Ich bin froh, dass ich in den Niederlanden wohne. Ich finde die Natur schön und die Menschen freundlich."
+  ],
+  "vragen": [
+    {
+      "nummer": 1,
+      "vraag": "Wie nennt man die Zahl zwischen acht und zehn?",
+      "opties": ["sieben", "neun", "zehn", "fünf"],
+      "correct_antwoord": "neun",
+      "explanation": "\"neun\" bedeutet \"negen\", in de zin \"ich bin __1__ Jahre\" dus \"de negen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 2,
+      "vraag": "Wie nennt man es, wenn etwas schon lange existiert oder viele Jahre hat?",
+      "opties": ["schön", "alt", "groß", "jung"],
+      "correct_antwoord": "alt",
+      "explanation": "\"alt\" bedeutet \"oud\", in de zin \"ich bin __2__ Jahre\" dus \"oud\" is een logisch antwoord."
+    },
+    {
+      "nummer": 3,
+      "vraag": "Wie nennt man es, wenn man sagt, woher man stammt?",
+      "opties": ["gehen (ich gehe)", "essen (ich esse)", "kommen (ich komme)", "sehen (ich sehe)"],
+      "correct_antwoord": "kommen (ich komme)",
+      "explanation": "\"kommen (ich komme)\" bedeutet \"komen\", in de zin \"Ich __3__ __4__ __5__\" dus \"komen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 4,
+      "vraag": "Wie nennt man die Präposition, die zeigt, woher jemand oder etwas kommt?",
+      "opties": ["durch", "aus", "nach", "bei"],
+      "correct_antwoord": "aus",
+      "explanation": "\"aus\" bedeutet \"uit\", in de zin \"Ich __3__ __4__ __5__\" dus \"uit\" is een logisch antwoord."
+    },
+    {
+      "nummer": 5,
+      "vraag": "Wie heißt das Land, aus dem Lisa kommt? Die Hauptstadt ist Berlin",
+      "opties": ["Belgien", "die Niederlande", "Österreich", "Deutschland"],
+      "correct_antwoord": "Deutschland",
+      "explanation": "\"Deutschland\" bedeutet \"Duitsland\", in de zin \"Ich __3__ __4__ __5__\" dus \"Duitsland\" is een logisch antwoord."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Wie nennt man es, wenn man in einem Haus oder einer Wohnung lebt?",
+      "opties": ["arbeiten (ich arbeite)", "wohnen (ich wohne)", "lernen (ich lerne)", "schlafen (ich schlafe)"],
+      "correct_antwoord": "wohnen (ich wohne)",
+      "explanation": "\"wohnen (ich wohne)\" bedeutet \"wonen\", in de zin \"…aber ich __6__ jetzt in den __7__\" dus \"wonen\" is een logisch antwoord."
+    },
+    {
+      "nummer": 7,
+      "vraag": "Wie heißt das Land, in dem Lisa jetzt wohnt?",
+      "opties": ["Deutschland", "Frankreich", "Niederlanden", "Italien"],
+      "correct_antwoord": "Niederlanden",
+      "explanation": "\"Niederlanden\" bedeutet \"Nederland\", in de zin \"…aber ich __6__ jetzt in den __7__\" dus \"Nederland\" is een logisch antwoord."
+    },
+    {
+      "nummer": 8,
+      "vraag": "Wie nennt man den Weg in einer Stadt mit Häusern links und rechts?",
+      "opties": ["die Straße", "die Treppe", "der Stuhl", "die Schule"],
+      "correct_antwoord": "die Straße",
+      "explanation": "\"die Straße\" bedeutet \"de straat\", in de zin \"__8__ heißt Tulpenstraße.\" dus \"de straat\" is een logisch antwoord."
+    },
+    {
+      "nummer": 9,
+      "vraag": "Wie nennt man den Ort (Straße und Hausnummer), an dem man wohnt?",
+      "opties": ["Preis", "Alter", "Adresse", "Straße"],
+      "correct_antwoord": "Adresse",
+      "explanation": "\"Adresse\" bedeutet \"adres\", in de zin \"Meine __9__ ist: Tulpenstraße 9.\" dus \"adres\" is een logisch antwoord."
+    },
+    {
+      "nummer": 10,
+      "vraag": "Wie nennt man es, wenn man sagt, wie man heißt?",
+      "opties": ["laufen", "heißen", "arbeiten", "spielen"],
+      "correct_antwoord": "heißen",
+      "explanation": "\"heißen\" bedeutet \"heten\", in de zin \"Meine Eltern __10__ Anna und Tim.\" dus \"heten\" is een logisch antwoord."
+    },
+    {
+      "nummer": 11,
+      "vraag": "Wie nennt man die Zahl zwischen eins und drei?",
+      "opties": ["vier", "zwei", "sechs", "drei"],
+      "correct_antwoord": "zwei",
+      "explanation": "\"zwei\" bedeutet \"twee\", in de zin \"seit __11__ Jahren\" dus \"twee\" is een logisch antwoord."
+    },
+    {
+      "nummer": 12,
+      "vraag": "Wie nennt man die Zeitspanne von zwölf Monaten?",
+      "opties": ["Monat", "Woche", "Jahr", "Tag"],
+      "correct_antwoord": "Jahr",
+      "explanation": "\"Jahr\" bedeutet \"jaar\", in de zin \"ein __12__ alt\" dus \"jaar\" is een logisch antwoord."
+    }
+  ]
+}
