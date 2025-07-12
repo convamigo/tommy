@@ -33,7 +33,7 @@
       "vraag": "Was zeigt, welche Fächer Lara an einem Tag hat?",
       "opties": ["Kalender", "Stundenplan", "Rucksack", "Buch"],
       "correct_antwoord": "Stundenplan",
-      "explanation": "\"Stundenplan\" betekent \"het lesrooster\" in deze zin. \"der Stundenplan\" is het juiste antwoord."
+      "explanation": "\"Stundenplan\" betekent \"het lesrooster\" in deze zin. \"Stundenplan\" is het juiste antwoord."
     },
     {
       "nummer": 5,
@@ -60,7 +60,7 @@
       "nummer": 8,
       "vraag": "Welches Haustier hat Laras Bruder?",
       "opties": ["Hund", "Schildkröte", "Affe", "Pferd"],
-      "correct_antwoord": "die Schildkröte",
+      "correct_antwoord": "Schildkröte",
       "explanation": "\"Schildkröte\" betekent \"schildpad\" in deze zin. \"Schildkröte\" is het juiste antwoord."
     },
     {
