@@ -12,85 +12,85 @@
       "nummer": 1,
       "vraag": "Wie nennt man eine Aktivität, die man in der Freizeit gern macht?",
       "opties": ["ein Buch", "ein Hobby", "ein Frühstück", "ein Spielzeug"],
-      "correct_antwoord": "das Hobby",
-      "explanation": "\"ein Hobby\" betekent \"een hobby\". In gat nummer 1 hoort \"ein Hobby\" te staan, omdat dit woord staat voor een activiteit in de vrije tijd."
+      "correct_antwoord": "ein Hobby",
+      "explanation": "\"ein Hobby\" betekent \"een hobby\" in deze zin. \"ein Hobby\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Welches Musikinstrument hat sechs Saiten und spielt man oft mit den Fingern?",
       "opties": ["Schlagzeug", "Klavier", "Gitarre", "Trompete"],
       "correct_antwoord": "Gitarre",
-      "explanation": "\"die Gitarre\" bedeutet \"gitaar\", in der Lücke 2 passt \"Gitarre\" logisch, weil dieses Instrument sechs Saiten hat."
+      "explanation": "\"Gitarre\" betekent \"gitaar\" in deze zin. \"Gitarre\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Welches Instrument schlägt man mit Stöcken?",
       "opties": ["Klavier", "Schlagzeug", "Flöte", "Gitarre"],
       "correct_antwoord": "Schlagzeug",
-      "explanation": "\"das Schlagzeug\" bedeutet \"drums\", in der Lücke 3 passt \"Schlagzeug\" logisch, weil man es mit Stöcken spielt."
+      "explanation": "\"Schlagzeug\" betekent \"drums\" in deze zin. \"Schlagzeug\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Welches Instrument spielt man mit den Händen und hat weiße und schwarze Tasten?",
       "opties": ["Geige", "Schlagzeug", "Klavier", "Trommel"],
       "correct_antwoord": "Klavier",
-      "explanation": "\"das Klavier\" bedeutet \"piano\", in der Lücke 4 passt \"Klavier\" logisch, weil es Tasten hat."
+      "explanation": "\"Klavier\" betekent \"piano\" in deze zin. \"Klavier\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Wie nennt man es, wenn man in der Freizeit Sport treibt?",
       "opties": ["Sport machen", "Hausaufgaben machen", "schlafen", "einkaufen"],
       "correct_antwoord": "Sport machen",
-      "explanation": "\"Sport machen\" bedeutet \"sporten\", in der Lücke 5 passt \"Sport machen\" logisch, weil es um Bewegung geht."
+      "explanation": "\"Sport machen\" betekent \"sporten\" in deze zin. \"Sport machen\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Welches Verb benutzt man, wenn man etwas schön findet?",
-      "opties": ["lesen (liest)", "gefallen (gefällt)", "machen (macht)", "spielen (spielt)"],
+      "opties": ["liest (lesen)", "gefällt (gefallen)", "macht (machen)", "spielt (spielen)"],
       "correct_antwoord": "gefallen (gefällt)",
-      "explanation": "\"gefallen\" bedeutet \"bevallen\", in der Lücke 6 passt \"gefällt\" logisch, weil es ausdrückt, dass etwas Freude macht."
+      "explanation": "\"gefällt (gefallen)\" betekent \"bevalt\" in deze zin. \"gefällt (gefallen)\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Wie heißt es, wenn man mit dem Fahrrad fährt?",
       "opties": ["Rad fahren", "schwimmen", "Auto fahren", "laufen"],
       "correct_antwoord": "Rad fahren",
-      "explanation": "\"Rad fahren\" bedeutet \"fietsen\", in der Lücke 7 passt \"Rad fahren\" logisch, weil damit Fahrradfahren gemeint ist."
+      "explanation": "\"Rad fahren\" betekent \"fietsen\" in deze zin. \"Rad fahren\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Wie nennt man es, wenn man sich zur Musik bewegt?",
       "opties": ["rennen", "tanzen", "singen", "schlafen"],
       "correct_antwoord": "tanzen",
-      "explanation": "\"tanzen\" bedeutet \"dansen\", in der Lücke 8 passt \"tanzen\" logisch, weil es Bewegung zur Musik beschreibt."
+      "explanation": "\"tanzen\" betekent \"dansen\" in deze zin. \"tanzen\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie heißt es, wenn etwas Freude bringt?",
-      "opties": ["müde machen (macht müde)", "Spaß machen (macht Spaß)", "langweilen (langweilt)", "wehtun (tut weh)"],
+      "opties": ["macht müde (müde machen)", "macht Spaß (Spaß machen)", "langweilt (langweilen)", "tut weh (wehtun)"],
       "correct_antwoord": "Spaß machen",
-      "explanation": "\"Spaß machen\" bedeutet \"plezier doen\", in der Lücke 9 passt \"Spaß machen\" logisch, weil es Freude ausdrückt."
+      "explanation": "\"macht Spaß (Spaß machen)\" betekent \"leuk vinden\" in deze zin. \"macht Spaß (Spaß machen)\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Wie nennt man es, wenn man ein Buch liest?",
-      "opties": ["lernen (lerne)", "lesen (lese)", "schreiben (schreibe)", "malen (male)"],
+      "opties": ["lerne (lernen)", "lese (lesen)", "schreibe (schreiben)", "male (malen)"],
       "correct_antwoord": "lesen (lese)",
-      "explanation": "\"lesen\" bedeutet \"lezen\", in der Lücke 10 passt \"lesen\" logisch, weil damit das Buchlesen gemeint ist."
+      "explanation": "\"lese (lesen)\" betekent \"lees\" in deze zin. \"lese (lesen)\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Wie nennt man es, wenn man einen Film auf einer großen Leinwand sieht?",
-      "opties": ["fernsehen gucken", "ins Kino", "telefonieren", "einkaufen"],
-      "correct_antwoord": "ins Kino",
-      "explanation": "\"ins Kino gehen\" bedeutet \"naar de bioscoop gaan\", in der Lücke 11 passt \"ins Kino\" logisch, weil man dort Filme sieht."
+      "opties": ["fernsehen gucken", "ins Kino (gehen)", "telefonieren", "einkaufen"],
+      "correct_antwoord": "ins Kino (gehen)",
+      "explanation": "\"ins Kino (gehen)\" betekent \"naar de bioscoop (gaan)\" in deze zin. \"ins Kino (gehen)\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie nennt man es, wenn man Lieder hört?",
       "opties": ["Musik hören", "singen", "tanzen", "spielen"],
       "correct_antwoord": "Musik hören",
-      "explanation": "\"Musik hören\" bedeutet \"naar muziek luisteren\", in der Lücke 12 passt \"Musik hören\" logisch, weil es das Hören von Liedern beschreibt."
+      "explanation": "\"Musik hören\" betekent \"naar muziek luisteren\" in deze zin. \"Musik hören\" is het juiste antwoord."
     }
   ]
 }
