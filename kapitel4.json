@@ -12,84 +12,84 @@
       "vraag": "Welches Schulfach beschäftigt sich mit Tieren und Pflanzen?",
       "opties": ["Geschichte", "Mathe", "Biologie", "Kunst"],
       "correct_antwoord": "Biologie",
-      "explanation": "\"Biologie\" betekent \"biologie\", in de zin \"lernen wir über Tiere im Schulfach <span class='gap'>1</span>\" dus \"biologie\" is een logisch antwoord."
+      "explanation": "\"Biologie\" betekent \"biologie\" in de zin \"lernen wir über Tiere im Schulfach <span class='gap'>1</span>\". \"Biologie\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Welches Haustier bellt und liebt es, zu spielen?",
       "opties": ["Hund", "Katze", "Kaninchen", "Schildkröte"],
-      "correct_antwoord": "der Hund",
-      "explanation": "\"der Hund\" betekent \"de hond\", in de zin \"Ich finde den <span class='gap'>2</span> besonders toll\" dus \"de hond\" is een logisch antwoord."
+      "correct_antwoord": "Hund",
+      "explanation": "\"Hund\" betekent \"hond\" in de zin \"Ich finde den <span class='gap'>2</span> besonders toll\". \"Hund\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Welches Haustier schnurrt und schläft viel?",
       "opties": ["der Hund", "die Katze", "die Schlange", "das Kaninchen"],
       "correct_antwoord": "die Katze",
-      "explanation": "\"die Katze\" betekent \"de kat\", in de zin \"Auch <span class='gap'>3</span> ist süß\" dus \"de kat\" is een logisch antwoord."
+      "explanation": "\"die Katze\" betekent \"de kat\" in de zin \"Auch <span class='gap'>3</span> ist süß\". \"Die Katze\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Welches Tier ist langsam, hat einen Panzer und lebt lange?",
       "opties": ["eine Schildkröte", "eine Katze", "eine Maus", "einen Fisch"],
       "correct_antwoord": "eine Schildkröte",
-      "explanation": "\"eine Schildkröte\" betekent \"een schildpad\", in de zin \"Manche Kinder haben <span class='gap'>4</span> zu Hause\" dus \"een schildpad\" is een logisch antwoord."
+      "explanation": "\"eine Schildkröte\" betekent \"een schildpad\" in de zin \"Manche Kinder haben <span class='gap'>4</span> zu Hause\". \"eine Schildkröte\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Welches kleine Tier hat lange Ohren und frisst Karotten?",
       "opties": ["Katze", "Hund", "Kaninchen", "Vogel"],
       "correct_antwoord": "Kaninchen",
-      "explanation": "\"Kaninchen\" betekent \"konijn\", in de zin \"Zu Hause lebt mein <span class='gap'>5</span>\" dus \"konijn\" is een logisch antwoord."
+      "explanation": "\"Kaninchen\" betekent \"konijn\" in de zin \"Zu Hause lebt mein <span class='gap'>5</span>\". \"Kaninchen\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Welches Tier ist lang, hat keine Beine und kann unheimlich sein?",
       "opties": ["eine Schildkröte", "eine Schlange", "einen Hamster", "einen Hund"],
       "correct_antwoord": "eine Schlange",
-      "explanation": "\"eine Schlange\" betekent \"een slang\", in de zin \"Meine Schwester hat <span class='gap'>6</span>\" dus \"een slang\" is een logisch antwoord."
+      "explanation": "\"eine Schlange\" betekent \"een slang\" in de zin \"Meine Schwester hat <span class='gap'>6</span>\". \"eine Schlange\" is een logisch antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Welcher Tag ist der erste Schultag in der Woche?",
       "opties": ["Freitag", "Montag", "Mittwoch", "Sonntag"],
       "correct_antwoord": "Montag",
-      "explanation": "\"Montag\" betekent \"maandag\", in de zin \"Am <span class='gap'>7</span> habe ich Geschichte\" dus \"maandag\" is een logisch antwoord."
+      "explanation": "\"Montag\" betekent \"maandag\" in de zin \"Am <span class='gap'>7</span> habe ich Geschichte\". \"Montag\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Welches Fach hat mit Zahlen, Rechnen und Logik zu tun?",
       "opties": ["Biologie", "Mathe", "Deutsch", "Sport"],
       "correct_antwoord": "Mathe",
-      "explanation": "\"Mathe\" betekent \"wiskunde\", in de zin \"Am <span class='gap'>7</span> habe ich Geschichte und <span class='gap'>8</span>\" dus \"wiskunde\" is een logisch antwoord."
+      "explanation": "\"Mathe\" betekent \"wiskunde\" in de zin \"Am <span class='gap'>7</span> habe ich Geschichte und <span class='gap'>8</span>\". \"Mathe\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie heißt die Sprache, die man in den Niederlanden spricht?",
       "opties": ["Deutsch", "Englisch", "Französisch", "Niederländisch"],
       "correct_antwoord": "Niederländisch",
-      "explanation": "\"Niederländisch\" betekent \"Nederlands\", in de zin \"<span class='gap'>9</span> habe ich auch\" dus \"Nederlands\" is een logisch antwoord."
+      "explanation": "\"Niederländisch\" betekent \"Nederlands\" in de zin \"<span class='gap'>9</span> habe ich auch\". \"Niederländisch\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "An welchem Tag in der Woche besuchen die Kinder den Bauernhof? Es ist der vierte Schultag einer Schulwoche",
       "opties": ["am Dienstag", "am Samstag", "am Donnerstag", "am Mittwoch"],
       "correct_antwoord": "am Donnerstag",
-      "explanation": "\"am Donnerstag\" betekent \"op donderdag\", in de zin \"<span class='gap'>10</span> besuchen wir manchmal einen Bauernhof\" dus \"op donderdag\" is een logisch antwoord."
+      "explanation": "\"am Donnerstag\" betekent \"op donderdag\" in de zin \"<span class='gap'>10</span> besuchen wir manchmal einen Bauernhof\". \"am Donnerstag\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Wie nennt man die Zeit zwischen Nacht und Mittag?",
       "opties": ["abends", "morgens", "mittags", "nachts"],
       "correct_antwoord": "morgens",
-      "explanation": "\"morgens\" betekent \"'s ochtends\", in de zin \"<span class='gap'>11</span> fahren wir mit dem Bus dorthin\" dus \"'s ochtends\" is een logisch antwoord."
+      "explanation": "\"morgens\" betekent \"'s ochtends\" in de zin \"<span class='gap'>11</span> fahren wir mit dem Bus dorthin\". \"morgens\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie heißt die Zeit nach dem Nachmittag, wenn es dunkel wird?",
       "opties": ["mittags", "morgens", "abends", "nachts"],
       "correct_antwoord": "abends",
-      "explanation": "\"abends\" betekent \"'s avonds\", in de zin \"<span class='gap'>12</span> lese ich gern ein Buch über Tiere\" dus \"'s avonds\" is een logisch antwoord."
+      "explanation": "\"abends\" betekent \"'s avonds\" in de zin \"<span class='gap'>12</span> lese ich gern ein Buch über Tiere\". \"abends\" is het juiste antwoord."
     }
   ]
 }
