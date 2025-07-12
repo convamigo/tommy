@@ -9,86 +9,86 @@
     {
       "nummer": 1,
       "vraag": "Wie nennt man ein Zuhause in einem Haus mit mehreren Wohnungen?",
-      "opties": ["das Haus", "die Wohnung", "die Schule", "das Zimmer"],
+      "opties": ["Haus", "Wohnung", "Schule", "Zimmer"],
       "correct_antwoord": "die Wohnung",
-      "explanation": "\"die Wohnung\" bedeutet \"appartement\", in der Lücke 1 passt \"die Wohnung\" logisch, weil eine Wohnung das Zuhause in einem Mehrfamilienhaus ist."
+      "explanation": "\"Wohnung\" betekent \"appartement\" in deze zin. \"die Wohnung\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Wie heißt der Tisch, an dem man Hausaufgaben macht?",
       "opties": ["Schrank", "Stuhl", "Schreibtisch", "Teppich"],
       "correct_antwoord": "Schreibtisch",
-      "explanation": "\"der Schreibtisch\" bedeutet \"bureau\", in der Lücke 2 passt \"Schreibtisch\" logisch, weil daran Hausaufgaben gemacht werden."
+      "explanation": "\"Schreibtisch\" betekent \"bureau\" in deze zin. \"Schreibtisch\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Wie nennt man ein Möbelstück, in dem Kleidung ist?",
       "opties": ["Schreibtisch", "Schrank", "Bett", "Tisch"],
       "correct_antwoord": "Schrank",
-      "explanation": "\"der Schrank\" bedeutet \"kast\", in der Lücke 3 passt \"Schrank\" logisch, weil Kleidung darin aufbewahrt wird."
+      "explanation": "\"Schrank\" betekent \"kast\" in deze zin. \"Schrank\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Wo wäscht man sich und nimmt eine Dusche?",
       "opties": ["das Schlafzimmer", "das Badezimmer", "das Wohnzimmer", "die Küche"],
       "correct_antwoord": "das Badezimmer",
-      "explanation": "\"das Badezimmer\" bedeutet \"badkamer\", in der Lücke 4 passt \"das Badezimmer\" logisch, weil man sich dort duscht."
+      "explanation": "\"das Badezimmer\" betekent \"de badkamer\" in deze zin. \"das Badezimmer\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Wo steht das Auto beim Haus?",
       "opties": ["Küche", "Garten", "Garage", "Wohnzimmer"],
-      "correct_antwoord": "die Garage",
-      "explanation": "\"die Garage\" bedeutet \"garage\", in der Lücke 5 passt \"die Garage\" logisch, weil dort das Auto abgestellt wird."
+      "correct_antwoord": "Garage",
+      "explanation": "\"Garage\" betekent \"garage\" in deze zin. \"die Garage\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Welches Wort benutzt man, wenn etwas sehr gut ist?",
       "opties": ["langweilig", "toll", "schlecht", "schwierig"],
       "correct_antwoord": "toll",
-      "explanation": "\"toll\" bedeutet \"leuk\", in der Lücke 6 passt \"toll\" logisch, weil es ausdrückt, dass etwas sehr gut ist."
+      "explanation": "\"toll\" betekent \"leuk\" in deze zin. \"toll\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Welches Wort benutzt man, wenn etwas nicht interessant ist?",
       "opties": ["spannend", "lustig", "langweilig", "toll"],
       "correct_antwoord": "langweilig",
-      "explanation": "\"langweilig\" bedeutet \"saai\", in der Lücke 7 passt \"langweilig\" logisch, weil es ausdrückt, dass etwas nicht interessant ist."
+      "explanation": "\"langweilig\" betekent \"saai\" in deze zin. \"langweilig\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Was macht man, wenn man mit dem Fuß gegen einen Ball tritt?",
       "opties": ["schwimmen", "Fußball", "reiten", "tanzen"],
       "correct_antwoord": "Fußball",
-      "explanation": "\"Fußball\" bedeutet \"voetbal\", in der Lücke 8 passt \"Fußball\" logisch, weil man so einen Ball mit dem Fuß spielt."
+      "explanation": "\"Fußball\" betekent \"voetbal\" in deze zin. \"Fußball\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie heißt es, wenn man im Wasser ist und sich bewegt?",
       "opties": ["tauchen", "schwimmen", "springen", "laufen"],
       "correct_antwoord": "schwimmen",
-      "explanation": "\"schwimmen\" bedeutet \"zwemmen\", in der Lücke 9 passt \"schwimmen\" logisch, weil damit das Bewegen im Wasser gemeint ist."
+      "explanation": "\"schwimmen\" betekent \"zwemmen\" in deze zin. \"schwimmen\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Was macht man mit der Stimme, wenn man Musik macht?",
-      "opties": ["singen (singt)", "lesen (liest)", "schreiben (schreibt)", "spielen (spielt)"],
+      "opties": ["singt (singen)", "liest (lesen)", "schreibt (schreiben)", "spielt (spielen)"],
       "correct_antwoord": "singen",
-      "explanation": "\"singen\" bedeutet \"zingen\", in der Lücke 10 passt \"singen\" logisch, weil man damit Musik mit der Stimme macht."
+      "explanation": "\"singen\" betekent \"zingen\" in deze zin. \"singen\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Was macht man, wenn man Musik mit den Ohren hört?",
-      "opties": ["tanzen (tanzt)", "lesen (liest)", "Musik hören (hört Musik)", "sprechen (spricht)"],
+      "opties": ["tanzt (tanzen)", "liest (lesen)", "hört Musik (Musik hören)", "spricht (sprechen)"],
       "correct_antwoord": "Musik hören",
-      "explanation": "\"Musik hören\" bedeutet \"naar muziek luisteren\", in der Lücke 11 passt \"Musik hören\" logisch, weil damit das Zuhören von Musik gemeint ist."
+      "explanation": "\"hört Musik (Musik hören)\" betekent \"luistert naar muziek (muziek luisteren)\" in deze zin. \"hört Musik (Musik hören)\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie nennt man es, wenn man Sport macht mit einem Pferd?",
       "opties": ["reiten", "fahren", "springen", "laufen"],
       "correct_antwoord": "reiten",
-      "explanation": "\"reiten\" bedeutet \"rijden\", in der Lücke 12 passt \"reiten\" logisch, weil man damit auf einem Pferd Sport treibt."
+      "explanation": "\"reiten\" betekent \"paardrijden\" in deze zin. \"reiten\" is het juiste antwoord."
     }
   ]
 }
