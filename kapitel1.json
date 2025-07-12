@@ -23,9 +23,9 @@
     {
       "nummer": 3,
       "vraag": "Wie nennt man es, wenn man sagt, woher man stammt?",
-      "opties": ["gehen (ich gehe)", "essen (ich esse)", "kommen (ich komme)", "sehen (ich sehe)"],
-      "correct_antwoord": "kommen (ich komme)",
-      "explanation": "\"kommen (ich komme)\" betekent \"komen (ik kom)\", in de zin \"Ich __3__ __4__ __5__\". \"kommen (ich komme)\" is het juiste antwoord."
+      "opties": ["gehe (gehen)", "esse (essen)", "komme (kommen)", "sehe (sehen)"],
+      "correct_antwoord": "komme (kommen)",
+      "explanation": "\"komme (kommen)\" betekent \"kom (ik kom)\", in de zin \"Ich __3__ __4__ __5__\". \"komme (kommen)\" is het juiste antwoord."
     },
     {
       "nummer": 4,
@@ -44,9 +44,9 @@
     {
       "nummer": 6,
       "vraag": "Wie nennt man es, wenn man in einem Haus oder einer Wohnung lebt?",
-      "opties": ["arbeiten (ich arbeite)", "wohnen (ich wohne)", "lernen (ich lerne)", "schlafen (ich schlafe)"],
-      "correct_antwoord": "wohnen (ich wohne)",
-      "explanation": "\"wohnen (ich wohne)\" betekent \"wonen (ik woon)\", in de zin \"…aber ich __6__ jetzt in den __7__\". \"wohnen (ich wohne)\" is het juiste antwoord."
+      "opties": ["arbeite (arbeiten)", "wohne (wohnen)", "lerne (lernen)", "schlafe (schlafen)"],
+      "correct_antwoord": "wohne (wohnen)",
+      "explanation": "\"wohne (wohnen)\" betekent \"woon (ik woon)\", in de zin \"…aber ich __6__ jetzt in den __7__\". \"wohne (wohnen)\" is het juiste antwoord."
     },
     {
       "nummer": 7,
