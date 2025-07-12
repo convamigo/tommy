@@ -10,84 +10,84 @@
       "vraag": "Welches Wort benutzt man, wenn man sich oder etwas anderen Leuten bekannt machen möchte?",
       "opties": ["erklären", "beginnen", "lesen", "vorstellen"],
       "correct_antwoord": "vorstellen",
-      "explanation": "\"vorstellen\" betekent \"voorstellen/introdceren\", in de zin \"Ich möchte euch meine Schule __1__\". \"vorstellen\" is het juiste antwoord."
+      "explanation": "\"vorstellen\" betekent \"voorstellen\" in de zin \"Ich möchte euch meine Schule __1__\". \"vorstellen\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Welches Wort beschreibt eine freundliche und sympathische Person?",
       "opties": ["nett", "schwierig", "laut", "fleißig"],
       "correct_antwoord": "nett",
-      "explanation": "\"nett\" betekent \"vriendelijk\", in de zin \"Die Schüler und Schülerinnen sind __2__\".  \"nett\" is het juiste antwoord."
+      "explanation": "\"nett\" betekent \"vriendelijk\" in de zin \"Die Schüler und Schülerinnen sind __2__\".  \"nett\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Welches Zahlwort steht für 70?",
       "opties": ["siebzehn", "siebzig", "sechzig", "sieben"],
       "correct_antwoord": "siebzig",
-      "explanation": "\"siebzig\" betekent \"zeventig\", in de zin \"Wir haben etwa __3__ Kinder\".  \"siebzig\" is het juiste antwoord."
+      "explanation": "\"siebzig\" betekent \"zeventig\" in de zin \"Wir haben etwa __3__ Kinder\".  \"siebzig\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Wie nennt man eine männliche Person, die an der Schule unterrichtet?",
       "opties": ["Freund", "Lehrer", "Schüler", "Vater"],
       "correct_antwoord": "Lehrer",
-      "explanation": "\"Lehrer\" betekent \"leraar\", in de zin \"Mein Lieblings__4__ ist Herr Weber\". \"Lehrer\" is het juiste antwoord."
+      "explanation": "\"Lehrer\" betekent \"leraar\" in de zin \"Mein Lieblings__4__ ist Herr Weber\". \"Lehrer\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Wie heißt das Fach, in dem man die deutsche Sprache lernt?",
       "opties": ["Englisch", "Biologie", "Deutsch", "Mathe"],
       "correct_antwoord": "Deutsch",
-      "explanation": "\"Deutsch\" betekent \"Duits\", in de zin \"Er unterrichtet __5__\".  \"Deutsch\" is het juiste antwoord."
+      "explanation": "\"Deutsch\" betekent \"Duits\" in de zin \"Er unterrichtet __5__\".  \"Deutsch\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "In welchem Fach lernt man etwas über frühere Zeiten und Ereignisse?",
       "opties": ["Physik", "Geschichte", "Geografie", "Deutsch"],
       "correct_antwoord": "Geschichte",
-      "explanation": "\"Geschichte\" betekent \"geschiedenis\", in de zin \"Er unterrichtet __6__\".  \"Geschichte\" is het juiste antwoord."
+      "explanation": "\"Geschichte\" betekent \"geschiedenis\" in de zin \"Er unterrichtet __6__\".  \"Geschichte\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Welches Wort bedeutet, dass etwas in hohem Maße oder stark ist?",
       "opties": ["oft", "sehr", "immer", "wenig"],
       "correct_antwoord": "sehr",
-      "explanation": "\"sehr\" betekent \"heel/erg\", in de zin \"er erklärt alles __7__ gut\".  \"sehr\" is het juiste antwoord."
+      "explanation": "\"sehr\" betekent \"heel/erg\" in de zin \"er erklärt alles __7__ gut\".  \"sehr\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Wie heißt eine schriftliche Prüfung in der Schule?",
       "opties": ["Pause", "Buch", "Test", "Heft"],
       "correct_antwoord": "Test",
-      "explanation": "\"Test\" betekent \"toets\", in de zin \"Wir schreiben manchmal einen __8__\".  \"Test\" is een logisch antwoord."
+      "explanation": "\"Test\" betekent \"toets\" in de zin \"Wir schreiben manchmal einen __8__\".  \"Test\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie nennt man die Zeit zwischen zwei Unterrichtsstunden, in der man sich ausruhen kann?",
       "opties": ["Stunde", "Pause", "Hof", "Test"],
       "correct_antwoord": "Pause",
-      "explanation": "\"Pause\" betekent \"pauze\", in de zin \"In der __9__ gehen wir oft auf den Schulhof\".  \"Pause\" is een logisch antwoord."
+      "explanation": "\"Pause\" betekent \"pauze\" in de zin \"In der __9__ gehen wir oft auf den Schulhof\".  \"Pause\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Welches Verb benutzt man, wenn man eine Tätigkeit ausführt?",
       "opties": ["lesen", "spielen", "machen", "sehen"],
       "correct_antwoord": "machen",
-      "explanation": "\"machen\" betekent \"doen/maken\", in de zin \"Danach gehen wir wieder ins Klassenzimmer und __10__ weiter mit dem Unterricht\". \"machen\" is een logisch antwoord."
+      "explanation": "\"machen\" betekent \"doen\" in de zin \"Danach gehen wir wieder ins Klassenzimmer und __10__ weiter mit dem Unterricht\". \"machen\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Wie nennt man eine Schulform in Deutschland, die nach der Grundschule folgt?",
       "opties": ["Realschule", "Universität", "Grundschule", "Kindergarten"],
       "correct_antwoord": "Realschule",
-      "explanation": "\"Realschule\" betekent \"havo-school\", in de zin \"Ich gehe auf eine __11__\". \"Realschule\" is het juiste antwoord."
+      "explanation": "\"Realschule\" betekent \"havo-school\" in de zin \"Ich gehe auf eine __11__\". \"Realschule\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie nennt man die Aufgaben, die man zu Hause für die Schule machen muss?",
       "opties": ["Schulmappe", "Hausaufgaben", "Bücher", "Fächer"],
       "correct_antwoord": "Hausaufgaben",
-      "explanation": "\"Hausaufgaben\" betekent \"huiswerk\", in de zin \"Nach der Schule mache ich meine __12__\".  \"Hausaufgaben\" is het juiste antwoord."
+      "explanation": "\"Hausaufgaben\" betekent \"huiswerk\" in de zin \"Nach der Schule mache ich meine __12__\".  \"Hausaufgaben\" is het juiste antwoord."
     }
   ]
 }
