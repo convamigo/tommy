@@ -11,91 +11,91 @@
       "vraag": "Wie beschreibt man eine Person, die nicht klein ist?",
       "opties": ["klein", "groß", "dick", "schmal"],
       "correct_antwoord": "groß",
-      "explanation": "\"groß\" bedeutet \"groot\", in der Lücke 1 passt \"groß\" logisch, weil es eine Person beschreibt, die nicht klein ist."
+      "explanation": "\"groß\" betekent \"groot\" in deze zin. \"groß\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Welche Farbe haben die Augen, wenn sie wie der Himmel aussehen?",
       "opties": ["braun", "grün", "blau", "grau"],
       "correct_antwoord": "blau",
-      "explanation": "\"blau\" bedeutet \"blauw\", in der Lücke 2 passt \"blau\" logisch, weil blaue Augen wie der Himmel sind."
+      "explanation": "\"blau\" betekent \"blauw\" in deze zin. \"blau\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Welches Wort benutzt man, wenn man etwas richtig gut findet?",
       "opties": ["schlecht", "toll", "langweilig", "dunkel"],
       "correct_antwoord": "toll",
-      "explanation": "\"toll\" bedeutet \"geweldig\", in der Lücke 3 passt \"toll\" logisch, weil man etwas richtig gut findet."
+      "explanation": "\"toll\" betekent \"geweldig\" in deze zin. \"toll\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Wie nennt man Kleidung, die angenehm zu tragen ist?",
       "opties": ["unbequem", "modern", "gemütlich", "altmodisch"],
       "correct_antwoord": "gemütlich",
-      "explanation": "\"gemütlich\" bedeutet \"comfortabel\", in der Lücke 4 passt \"gemütlich\" logisch, weil gemütliche Kleidung angenehm zu tragen ist."
+      "explanation": "\"gemütlich\" betekent \"comfortabel\" in deze zin. \"gemütlich\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Was macht man, wenn man Kleidung an den Körper bringt?",
       "opties": ["ausziehen", "anziehen", "waschen", "kaufen"],
       "correct_antwoord": "anziehen",
-      "explanation": "\"anziehen\" bedeutet \"aantrekken\", in der Lücke 5 passt \"anziehen\" logisch, weil man damit Kleidung an den Körper bringt."
+      "explanation": "\"anziehen\" betekent \"aantrekken\" in deze zin. \"anziehen\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Wie nennt man ein warmes Oberteil für kalte Tage?",
       "opties": ["T-Shirt", "Pullover", "Bluse", "Hemd"],
       "correct_antwoord": "Pullover",
-      "explanation": "\"Pullover\" bedeutet \"trui\", in der Lücke 6 passt \"Pullover\" logisch, weil Pullover warme Oberteile sind."
+      "explanation": "\"Pullover\" betekent \"trui\" in deze zin. \"Pullover\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Was trägt man an den Füßen im Winter?",
       "opties": ["Schuhe", "Socken", "Sandalen", "Stiefel"],
       "correct_antwoord": "Stiefel",
-      "explanation": "\"Stiefel\" bedeutet \"laarzen\", in der Lücke 7 passt \"Stiefel\" logisch, weil man sie an den Füßen im Winter trägt."
+      "explanation": "\"Stiefel\" betekent \"laarzen\" in deze zin. \"Stiefel\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Wie heißt ein Kleidungsstück für Mädchen oder Frauen mit Rockteil?",
       "opties": ["Hose", "Pullover", "Kleid", "Mantel"],
       "correct_antwoord": "Kleid",
-      "explanation": "\"Kleid\" bedeutet \"jurk\", in der Lücke 8 passt \"Kleid\" logisch, weil es ein Kleidungsstück mit Rockteil ist."
+      "explanation": "\"Kleid\" betekent \"jurk\" in deze zin. \"Kleid\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie nennt man ein Kleidungsstück mit zwei Beinen, das man unten trägt?",
       "opties": ["Rock", "Hose", "Schal", "Kleid"],
       "correct_antwoord": "Hose",
-      "explanation": "\"Hose\" bedeutet \"broek\", in der Lücke 9 passt \"Hose\" logisch, weil man sie unten trägt und sie zwei Beine hat."
+      "explanation": "\"Hose\" betekent \"broek\" in deze zin. \"Hose\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Wie nennt man es, wenn man ein Zimmer ordentlich macht?",
       "opties": ["aufräumen", "putzen", "kochen", "spielen"],
       "correct_antwoord": "aufräumen",
-      "explanation": "\"aufräumen\" bedeutet \"opruimen\", in der Lücke 10 passt \"aufräumen\" logisch, weil es bedeutet, ein Zimmer ordentlich zu machen."
+      "explanation": "\"aufräumen\" betekent \"opruimen\" in deze zin. \"aufräumen\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Welches Wort beschreibt einen Raum mit viel Licht?",
       "opties": ["dunkel", "hell", "kalt", "eng"],
       "correct_antwoord": "hell",
-      "explanation": "\"hell\" bedeutet \"licht\", in der Lücke 11 passt \"hell\" logisch, weil ein heller Raum viel Licht hat."
+      "explanation": "\"hell\" betekent \"licht\" in deze zin. \"hell\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Was tut man mit Kleidung, wenn man sie am Körper hat?",
-      "opties": ["tragen (trage)", "halten (halte)", "kaufen (kaufe)", "waschen (wasche)"],
+      "opties": ["trage (tragen)", "halte (halten)", "kaufe (kaufen)", "wasche (waschen)"],
       "correct_antwoord": "tragen (trage)",
-      "explanation": "\"tragen\" bedeutet \"dragen\", in der Lücke 12 passt \"trage\" logisch, weil es bedeutet, Kleidung am Körper zu haben."
+      "explanation": "\"tragen\" betekent \"dragen\" in deze zin. \"trage\" is het juiste antwoord."
     },
     {
       "nummer": 13,
       "vraag": "Welches Wort benutzt man, wenn etwas sehr schön ist?",
       "opties": ["hässlich", "alt", "toll", "kaputt"],
       "correct_antwoord": "toll",
-      "explanation": "\"toll\" bedeutet \"geweldig\", in der Lücke 13 passt \"toll\" logisch, weil es ausdrückt, dass etwas sehr schön ist."
+      "explanation": "\"toll\" betekent \"geweldig\" in deze zin. \"toll\" is het juiste antwoord."
     }
   ]
 }
