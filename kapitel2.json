@@ -12,84 +12,84 @@
       "vraag": "Wie nennt man etwas, woran man eine Person erkennen oder ansprechen kann?",
       "opties": ["der Tisch", "der Hund", "das Buch", "der Name"],
       "correct_antwoord": "der Name",
-      "explanation": "\"der Name\" betekent \"de naam\", in de zin \"<span class='gap'>1</span> unserer Familie ist Bauer\". \"der Name\" is het juiste antwoord."
+      "explanation": "\"der Name\" betekent \"de naam\" in de zin \"<span class='gap'>1</span> unserer Familie ist Bauer\". \"der Name\" is het juiste antwoord."
     },
     {
       "nummer": 2,
       "vraag": "Wie nennt man eine Frau, die ein Kind geboren hat?",
       "opties": ["Schwester", "Mutter", "Tante", "Oma"],
       "correct_antwoord": "Mutter",
-      "explanation": "\"Mutter\" betekent \"moeder\", in de zin \"Unsere <span class='gap'>2</span> heißt Anna\". \"Mutter\" is het juiste antwoord."
+      "explanation": "\"Mutter\" betekent \"moeder\" in de zin \"Unsere <span class='gap'>2</span> heißt Anna\". \"Mutter\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Wie nennt man die Ziffern, mit denen man jemanden anrufen kann?",
       "opties": ["Jacke", "Tür", "Telefonnummer", "Adresse"],
       "correct_antwoord": "Telefonnummer",
-      "explanation": "\"Telefonnummer\" betekent \"telefoonnummer\", in de zin \"Unsere <span class='gap'>3</span> ist 0341 789456\". \"Telefonnummer\" is het juiste antwoord."
+      "explanation": "\"Telefonnummer\" betekent \"telefoonnummer\" in de zin \"Unsere <span class='gap'>3</span> ist 0341 789456\". \"Telefonnummer\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Wie nennt man einen männlichen Geschwisterteil?",
       "opties": ["Opa", "Freund", "Vater", "Bruder"],
       "correct_antwoord": "Bruder",
-      "explanation": "\"Bruder\" betekent \"broer\", in de zin \"Max hat einen <span class='gap'>4</span>\". \"Bruder\" is het juiste antwoord."
+      "explanation": "\"Bruder\" betekent \"broer\" in de zin \"Max hat einen <span class='gap'>4</span>\". \"Bruder\" is het juiste antwoord."
     },
     {
       "nummer": 5,
       "vraag": "Wie nennt man Bruder und Schwester zusammen?",
       "opties": ["Geschwister", "Eltern", "Nachbarn", "Freunde"],
       "correct_antwoord": "Geschwister",
-      "explanation": "\"Geschwister\" betekent \"broers en zussen\", in de zin \"Zusammen sind sie <span class='gap'>5</span>\". \"Geschwister\" is het juiste antwoord."
+      "explanation": "\"Geschwister\" betekent \"broers en zussen\" in de zin \"Zusammen sind sie <span class='gap'>5</span>\". \"Geschwister\" is het juiste antwoord."
     },
     {
       "nummer": 6,
       "vraag": "Wie nennt man den Sohn von Tante oder Onkel?",
       "opties": ["Cousin", "Bruder", "Lehrer", "Nachbar"],
       "correct_antwoord": "Cousin",
-      "explanation": "\"Cousin\" betekent \"neef\", in de zin \"Sie haben auch einen <span class='gap'>6</span>\". \"Cousin\" is het juiste antwoord."
+      "explanation": "\"Cousin\" betekent \"neef\" in de zin \"Sie haben auch einen <span class='gap'>6</span>\". \"Cousin\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Wien ist die Hauptstadt dieses Landes. Wie heißt das Land?",
       "opties": ["Österreich", "Deutschland", "die Schweiz", "Frankreich"],
       "correct_antwoord": "Österreich",
-      "explanation": "\"Österreich\" betekent \"Oostenrijk\", in de zin \"Er wohnt in <span class='gap'>7</span>\". \"Österreich\" is het juiste antwoord."
+      "explanation": "\"Österreich\" betekent \"Oostenrijk\" in de zin \"Er wohnt in <span class='gap'>7</span>\". \"Österreich\" is het juiste antwoord."
     },
     {
       "nummer": 8,
       "vraag": "Wie nennt man die Eltern von Mutter oder Vater?",
       "opties": ["Kinder", "Großeltern", "Lehrer", "Eltern"],
       "correct_antwoord": "Großeltern",
-      "explanation": "\"Großeltern\" betekent \"grootouders\", in de zin \"Unsere <span class='gap'>8</span> wohnen in der <span class='gap'>9</span>\". \"Großeltern\" is het juiste antwoord."
+      "explanation": "\"Großeltern\" betekent \"grootouders\" in de zin \"Unsere <span class='gap'>8</span> wohnen in der <span class='gap'>9</span>\". \"Großeltern\" is het juiste antwoord."
     },
     {
       "nummer": 9,
       "vraag": "Wie heißt das Land mit vielen Bergen und der Hauptstadt Bern?",
       "opties": ["Deutschland", "Österreich", "Schweiz", "Belgien"],
       "correct_antwoord": "Schweiz",
-      "explanation": "\"Schweiz\" betekent \"Zwitserland\", in de zin \"Unsere Großeltern wohnen in der <span class='gap'>9</span>\". \"Schweiz\" is het juiste antwoord."
+      "explanation": "\"Schweiz\" betekent \"Zwitserland\" in de zin \"Unsere Großeltern wohnen in der <span class='gap'>9</span>\". \"Schweiz\" is het juiste antwoord."
     },
     {
       "nummer": 10,
       "vraag": "Wie nennt man eine männliche Person, mit der man befreundet ist?",
       "opties": ["Lehrer", "Vater", "Freund", "Nachbar"],
       "correct_antwoord": "Freund",
-      "explanation": "\"Freund\" betekent \"vriend\", in de zin \"Tom hat einen <span class='gap'>10</span>, der nebenan wohnt\". \"Freund\" is het juiste antwoord."
+      "explanation": "\"Freund\" betekent \"vriend\" in de zin \"Tom hat einen <span class='gap'>10</span>, der nebenan wohnt\". \"Freund\" is het juiste antwoord."
     },
     {
       "nummer": 11,
       "vraag": "Wie nennt man ein junges weibliches Kind?",
       "opties": ["eine Frau", "eine Schwester", "ein Mädchen", "ein Kind"],
       "correct_antwoord": "ein Mädchen",
-      "explanation": "\"ein Mädchen\" betekent \"een meisje\", in de zin \"Max kennt auch <span class='gap'>11</span> aus seiner Klasse\". \"ein Mädchen\" is een logisch antwoord."
+      "explanation": "\"ein Mädchen\" betekent \"een meisje\" in de zin \"Max kennt auch <span class='gap'>11</span> aus seiner Klasse\". \"ein Mädchen\" is het juiste antwoord."
     },
     {
       "nummer": 12,
       "vraag": "Wie nennt man ein junges männliches Kind?",
       "opties": ["der Junge", "der Mann", "der Freund", "das Kind"],
       "correct_antwoord": "der Junge",
-      "explanation": "\"der Junge\" betekent \"de jongen\", in de zin \"<span class='gap'>12</span> ist elf Jahre alt\". \"der Junge\" is het juiste antwoord."
+      "explanation": "\"der Junge\" betekent \"de jongen\" in de zin \"<span class='gap'>12</span> ist elf Jahre alt\". \"der Junge\" is het juiste antwoord."
     }
   ]
 }
