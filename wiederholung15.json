@@ -1,95 +1,95 @@
 {
   "tekst": [
-    "Ich heiße Lara. Ich bin zwölf Jahre alt und ich komme aus Deutschland. Jetzt wohne ich in den <span class='gap'>2</span>. Meine Familie ist freundlich. Ich habe einen Bruder und eine Schwester. Meine Eltern sind Lehrer. Wir sind vier Personen zu Hause. Unsere Oma wohnt auch bei uns. Sie ist dreißig Jahre älter als meine Mutter.",
-    "Um halb sieben stehe ich auf. Ich bin dann oft noch müde. Ich frühstücke mit meiner Familie. Ich trinke <span class='gap'>10</span> und esse Brot. Mein Bruder trinkt Kaffee mit Zucker. Danach gehe ich <span class='gap'>3</span>. Mein <span class='gap'>4</span> ist voll. Heute habe ich Deutsch, Französisch, Erdkunde und Sport.",
-    "In der ersten Stunde haben wir Französisch. Das finde ich schwierig. In der dritten Stunde haben wir <span class='gap'>6</span>. Das ist toll! Wir spielen Fußball oder Handball. Nach der Schule machen wir <span class='gap'>5</span>. Wir schreiben auch manchmal einen Test. Das ist blöd, aber wichtig.",
-    "Nachmittags spiele ich oft mit meinen Haustieren. Ich habe ein <span class='gap'>7</span>, eine Katze und ein Meerschweinchen. Mein Bruder hat eine <span class='gap'>12</span>. Die Tiere sind lieb und weich. Ich versorge sie jeden Tag. Ich darf sie auch anfassen und streicheln. Mein Kaninchen heißt Momo.",
-    "Am Abend essen wir zusammen. Wir essen Schnitzel mit Kartoffeln. Mein Vater isst kein <span class='gap'>8</span>. Danach gibt es <span class='gap'>11</span>. Nach dem Abendessen schreibe ich meiner neuen Freundin <span class='gap'>1</span>. Sie wohnt in Frankreich. Dann gehe ich ins Bett. Um <span class='gap'>9</span> schlafe ich schon."
+    "Ich heiße Lara. Ich bin zwölf Jahre alt und ich komme aus Deutschland. Jetzt wohne ich in den <span class='gap'>1</span>. Meine Familie ist freundlich. Ich habe einen Bruder und eine Schwester. Meine Eltern sind Lehrer. Wir sind vier Personen zu Hause. Unsere Oma wohnt auch bei uns. Sie ist dreißig Jahre älter als meine Mutter.",
+    "Um halb sieben stehe ich auf. Ich bin dann oft noch müde. Ich frühstücke mit meiner Familie. Ich trinke <span class='gap'>2</span> und esse Brot. Mein Bruder trinkt Kaffee mit Zucker. Danach gehe ich <span class='gap'>3</span>. Mein <span class='gap'>4</span> ist voll. Heute habe ich Deutsch, Französisch, Erdkunde und Sport.",
+    "In der ersten Stunde haben wir Französisch. Das finde ich schwierig. In der dritten Stunde haben wir <span class='gap'>5</span>. Das ist toll! Wir spielen Fußball oder Handball. Nach der Schule machen wir <span class='gap'>6</span>. Wir schreiben auch manchmal einen Test. Das ist blöd, aber wichtig.",
+    "Nachmittags spiele ich oft mit meinen Haustieren. Ich habe ein <span class='gap'>7</span>, eine Katze und ein Meerschweinchen. Mein Bruder hat eine <span class='gap'>8</span>. Die Tiere sind lieb und weich. Ich versorge sie jeden Tag. Ich darf sie auch anfassen und streicheln. Mein Kaninchen heißt Momo.",
+    "Am Abend essen wir zusammen. Wir essen Schnitzel mit Kartoffeln. Mein Vater isst kein <span class='gap'>9</span>. Danach gibt es <span class='gap'>10</span>. Nach dem Abendessen schreibe ich meiner neuen Freundin <span class='gap'>11</span>. Sie wohnt in Frankreich. Dann gehe ich ins Bett. Um <span class='gap'>12</span> schlafe ich schon."
   ],
   "vragen": [
     {
       "nummer": 1,
-      "vraag": "Was schreibt Lara am Abend für ihre neue Freundin?",
-      "opties": ["die Telefonnummer", "die Adresse", "die E-Mail", "den Namen"],
-      "correct_antwoord": "die E-Mail",
-      "explanation": "\"die E-Mail\" betekent \"de e-mail\", in der Lücke 1 passt \"die E-Mail\" logisch, weil Lara ihrer Freundin eine E-Mail schreibt."
+      "vraag": "In welchem Land wohnt Lara jetzt?",
+      "opties": ["Deutschland", "Frankreich", "die Schweiz", "Niederlanden"],
+      "correct_antwoord": "Niederlanden",
+      "explanation": "\"Niederlanden\" betekent \"Nederland\" in deze zin. \"Niederlanden\" is het juiste antwoord."
     },
     {
       "nummer": 2,
-      "vraag": "In welchem Land wohnt Lara jetzt?",
-      "opties": ["Deutschland", "Frankreich", "die Schweiz", "die Niederlande"],
-      "correct_antwoord": "die Niederlande",
-      "explanation": "\"die Niederlande\" bedeutet \"Nederland\", in der Lücke 2 passt \"die Niederlande\" logisch, weil sie jetzt in den Niederlanden wohnt."
+      "vraag": "Was trinkt Lara am Morgen im Kaffee?",
+      "opties": ["Milch", "Wasser", "Cola", "Saft"],
+      "correct_antwoord": "Milch",
+      "explanation": "\"Milch\" bedeutet \"melk\" in deze zin. \"Milch\" is het juiste antwoord."
     },
     {
       "nummer": 3,
       "vraag": "Wohin geht Lara nach dem Frühstück?",
       "opties": ["in den Park", "ins Kino", "zur Schule", "zum Supermarkt"],
       "correct_antwoord": "zur Schule",
-      "explanation": "\"zur Schule\" betekent \"naar school\", in der Lücke 3 passt \"zur Schule\" logisch, weil sie nach dem Frühstück zur Schule geht."
+      "explanation": "\"zur Schule\" betekent \"naar school\" in deze zin. \"zur Schule\" is het juiste antwoord."
     },
     {
       "nummer": 4,
       "vraag": "Was zeigt, welche Fächer Lara an einem Tag hat?",
-      "opties": ["der Kalender", "der Stundenplan", "der Rucksack", "das Buch"],
-      "correct_antwoord": "der Stundenplan",
-      "explanation": "\"der Stundenplan\" betekent \"het lesrooster\", in der Lücke 4 passt \"der Stundenplan\" logisch, weil er zeigt, welche Fächer Lara an einem Tag hat."
+      "opties": ["Kalender", "Stundenplan", "Rucksack", "Buch"],
+      "correct_antwoord": "Stundenplan",
+      "explanation": "\"Stundenplan\" betekent \"het lesrooster\" in deze zin. \"der Stundenplan\" is het juiste antwoord."
     },
     {
       "nummer": 5,
-      "vraag": "Was machen Lara und die anderen Kinder nach dem Unterricht?",
-      "opties": ["Hausaufgaben", "Pause", "Sport", "Frühstück"],
-      "correct_antwoord": "Hausaufgaben",
-      "explanation": "\"Hausaufgaben\" bedeutet \"huiswerk\", in der Lücke 5 passt \"Hausaufgaben\" logisch, weil sie nach der Schule Hausaufgaben machen."
-    },
-    {
-      "nummer": 6,
       "vraag": "Welches Fach hat Lara in der dritten Stunde?",
       "opties": ["Deutsch", "Sport", "Französisch", "Mathe"],
       "correct_antwoord": "Sport",
-      "explanation": "\"Sport\" betekent \"gym\", in der Lücke 6 passt \"Sport\" logisch, weil sie in der dritten Stunde Sport hat."
+      "explanation": "\"Sport\" betekent \"gym\" in deze zin. \"Sport\" is het juiste antwoord."
+    },
+    {
+      "nummer": 6,
+      "vraag": "Was machen Lara und die anderen Kinder nach dem Unterricht?",
+      "opties": ["Hausaufgaben", "Pause", "Sport", "Frühstück"],
+      "correct_antwoord": "Hausaufgaben",
+      "explanation": "\"Hausaufgaben\" betekent \"huiswerk\" in deze zin. \"Hausaufgaben\" is het juiste antwoord."
     },
     {
       "nummer": 7,
       "vraag": "Welches Haustier hat Lara?",
-      "opties": ["der Fisch", "die Spinne", "das Kaninchen", "der Hund"],
-      "correct_antwoord": "das Kaninchen",
-      "explanation": "\"das Kaninchen\" betekent \"het konijn\", in der Lücke 7 passt \"das Kaninchen\" logisch, weil sie ein Kaninchen als Haustier hat."
+      "opties": ["Fisch", "Spinne", "Kaninchen", "Hund"],
+      "correct_antwoord": "Kaninchen",
+      "explanation": "\"Kaninchen\" betekent \"konijn\" in deze zin. \"Kaninchen\" is het juiste antwoord."
     },
     {
       "nummer": 8,
-      "vraag": "Was isst Lara mit ihrer Familie abends?",
-      "opties": ["Käse", "Gemüse", "Fleisch", "Nudeln"],
-      "correct_antwoord": "Fleisch",
-      "explanation": "\"Fleisch\" bedeutet \"vlees\", in der Lücke 8 passt \"Fleisch\" logisch, weil sie Schnitzel (Fleisch) mit Kartoffeln isst."
+      "vraag": "Welches Haustier hat Laras Bruder?",
+      "opties": ["Hund", "Schildkröte", "Affe", "Pferd"],
+      "correct_antwoord": "die Schildkröte",
+      "explanation": "\"Schildkröte\" betekent \"schildpad\" in deze zin. \"Schildkröte\" is het juiste antwoord."
     },
     {
       "nummer": 9,
-      "vraag": "Wann schläft Lara?",
-      "opties": ["halb sieben", "viertel nach zwei", "um neun Uhr", "Mitternacht"],
-      "correct_antwoord": "viertel nach zwei",
-      "explanation": "\"viertel nach zwei\" bedeutet \"kwart over twee\", in der Lücke 9 passt \"viertel nach zwei\" logisch, weil sie um viertel nach zwei schläft."
+      "vraag": "Was isst Lara mit ihrer Familie abends?",
+      "opties": ["Käse", "Gemüse", "Fleisch", "Nudeln"],
+      "correct_antwoord": "Fleisch",
+      "explanation": "\"Fleisch\" betekent \"vlees\" in deze zin. \"Fleisch\" is het juiste antwoord."
     },
     {
       "nummer": 10,
-      "vraag": "Was trinkt Lara am Morgen im Kaffee?",
-      "opties": ["die Milch", "das Wasser", "die Cola", "der Saft"],
-      "correct_antwoord": "die Milch",
-      "explanation": "\"die Milch\" bedeutet \"de melk\", in der Lücke 10 passt \"die Milch\" logisch, weil sie am Morgen Milch trinkt."
+      "vraag": "Was isst Lara zum Nachtisch?",
+      "opties": ["Fleisch", "Brot", "Eis", "Kuchen"],
+      "correct_antwoord": "Eis",
+      "explanation": "\"Eis\" betekent \"ijs\" in deze zin. \"Eis\" is het juiste antwoord."
     },
     {
       "nummer": 11,
-      "vraag": "Was isst Lara zum Nachtisch?",
-      "opties": ["das Fleisch", "das Brot", "das Eis", "der Kuchen"],
-      "correct_antwoord": "das Eis",
-      "explanation": "\"das Eis\" bedeutet \"het ijs\", in der Lücke 11 passt \"das Eis\" logisch, weil es zum Nachtisch Eis gibt."
+      "vraag": "Was schreibt Lara am Abend für ihre neue Freundin?",
+      "opties": ["eine Telefonnummer", "eine Adresse", "eine E-Mail", "einen Namen"],
+      "correct_antwoord": "eine E-Mail",
+      "explanation": "\"eine E-Mail\" betekent \"een e-mail\" in deze zin. \"eine E-Mail\" is het juiste antwoord."
     },
     {
       "nummer": 12,
-      "vraag": "Welches Haustier hat Laras Bruder?",
-      "opties": ["der Hund", "die Schildkröte", "der Affe", "das Pferd"],
-      "correct_antwoord": "die Schildkröte",
-      "explanation": "\"die Schildkröte\" betekent \"de schildpad\", in der Lücke 12 passt \"die Schildkröte\" logisch, weil Laras Bruder eine Schildkröte hat."
+      "vraag": "Wann schläft Lara?",
+      "opties": ["halb sieben", "viertel nach zwei", "um neun Uhr", "Mitternacht"],
+      "correct_antwoord": "viertel nach zwei",
+      "explanation": "\"viertel nach zwei\" betekent \"kwart over twee\" in deze zin. \"viertel nach zwei\" is het juiste antwoord."
     }
   ]
 }
