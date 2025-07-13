@@ -10,7 +10,7 @@
       "nummer": 1,
       "vraag": "Welches Tier lebt auf dem Bauernhof und gibt Milch?",
       "opties": ["Katze", "Kuh", "Hund", "Kaninchen"],
-      "correct_antwoord": "die Kuh",
+      "correct_antwoord": "Kuh",
       "explanation": "\"Kuh\" betekent \"koe\" in deze zin. \"Kuh\" is het juiste antwoord."
     },
     {
